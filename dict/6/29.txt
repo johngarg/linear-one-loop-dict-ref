@@ -1,0 +1,1 @@
+alphaOeB[p_, q_] -> (g1*onelooporder*yl[mif3, q]*yXi1[fl1, p]*yXi1bar[fl1, mif3])/(16*MXi1^2*Pi^2)

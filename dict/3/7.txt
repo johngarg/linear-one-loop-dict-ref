@@ -1,0 +1,1 @@
+alphaOHBox -> ((-g1^4 - 5*lambdaHatS2^2)*onelooporder)/(960*MS2^2*Pi^2)

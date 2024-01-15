@@ -1,0 +1,1 @@
+alphaOHD -> ((-9*g1^4 - 100*lambdaHatPrimeTheta3^2 + 360*lambdaTheta3*lambdaTheta3bar)*onelooporder)/(960*MTheta3^2*Pi^2)

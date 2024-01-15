@@ -1,0 +1,1 @@
+alphaOHl3[p_, q_] -> -1/480*(onelooporder*KroneckerDelta[p, q]*(3*g2^4 - 5*g2^2*lambdadQ1[fl1]*lambdadQ1bar[fl1] - 5*g2^2*lambdauQ1[fl1]*lambdauQ1bar[fl1]))/(MQ1^2*Pi^2)

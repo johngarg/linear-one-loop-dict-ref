@@ -1,0 +1,1 @@
+alphaOuB[p_, q_] -> -1/96*(onelooporder*yu[mif3, q]*(g1*yUpsilon[fl1, mif3]*yUpsilonbar[fl1, p] + g1*yUpsilon[mif3, fl1]*yUpsilonbar[fl1, p] + g1*yUpsilon[fl1, mif3]*yUpsilonbar[p, fl1] + g1*yUpsilon[mif3, fl1]*yUpsilonbar[p, fl1]))/(MUpsilon^2*Pi^2)

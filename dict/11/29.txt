@@ -1,0 +1,1 @@
+alphaOeB[p_, q_] -> (g1*onelooporder*yedomega4[q, fl1]*yedomega4bar[mif3, fl1]*yl[p, mif3])/(64*Momega4^2*Pi^2)

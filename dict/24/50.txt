@@ -1,0 +1,1 @@
+alphaOqu8[p_, q_, r_, s_] -> -1/64*(onelooporder*lambdaSigma[fl1]*lambdaSigmabar[fl1]*yu[p, s]*yubar[q, r])/(MSigma^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOquqd1[p_, q_, r_, s_] -> (kappaXi1*kappaXi1bar*onelooporder*yd[r, s]*yu[p, q])/(8*MXi1^4*Pi^2)

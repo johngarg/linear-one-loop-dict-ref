@@ -1,0 +1,1 @@
+alphaOuB[p_, q_] -> -1/18*(g1*onelooporder*yu[p, mif3]*yuuomega4[fl1, mif3]*yuuomega4bar[fl1, q])/(Momega4^2*Pi^2)

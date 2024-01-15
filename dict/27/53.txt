@@ -1,0 +1,1 @@
+alphaOuB[p_, q_] -> (onelooporder*(3*g1*lambdaD[fl1]*lambdaDbar[p]*yu[fl1, q] - 2*g1*lambdaD[mif3]*lambdaDbar[p]*yu[mif3, q]))/(576*MD^2*Pi^2)

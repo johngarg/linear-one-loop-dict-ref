@@ -1,0 +1,1 @@
+alphaOHB -> (g1^2*onelooporder*lambdaE[fl1]*lambdaEbar[fl1])/(128*ME^2*Pi^2)

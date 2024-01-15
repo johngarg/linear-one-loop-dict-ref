@@ -1,0 +1,1 @@
+alphaOlq3[p_, q_, r_, s_] -> -1/144*(g2^2*onelooporder*KroneckerDelta[r, s]*(4*yS1[fl1, p]*yS1bar[fl1, q] + 3*invepsilonbar*yS1[fl1, p]*yS1bar[fl1, q] - 3*Log[MS1^2/μ^2]*yS1[fl1, p]*yS1bar[fl1, q] - 3*KroneckerDelta[r, t]*yS1[p, t]*yS1bar[q, r]))/(MS1^2*Pi^2)

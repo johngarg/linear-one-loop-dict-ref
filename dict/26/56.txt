@@ -1,0 +1,1 @@
+alphaOuW[p_, q_] -> -1/384*(g2*onelooporder*lambdaU[mif3]*lambdaUbar[p]*yu[mif3, q])/(MU^2*Pi^2)

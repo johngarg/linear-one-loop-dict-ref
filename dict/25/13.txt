@@ -1,0 +1,1 @@
+alphaOHWB -> (g1*g2*onelooporder*lambdaSigma1[fl1]*lambdaSigma1bar[fl1])/(192*MSigma1^2*Pi^2)

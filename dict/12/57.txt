@@ -1,0 +1,1 @@
+alphaOud1[p_, q_, r_, s_] -> (onelooporder*KroneckerDelta[p, q]*(g1^4*KroneckerDelta[r, s] + 250*g1^2*yPi1[fl1, s]*yPi1bar[fl1, r] + 180*g1^2*invepsilonbar*yPi1[fl1, s]*yPi1bar[fl1, r] - 180*g1^2*Log[MPi1^2/μ^2]*yPi1[fl1, s]*yPi1bar[fl1, r]))/(12960*MPi1^2*Pi^2)

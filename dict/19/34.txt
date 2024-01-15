@@ -1,0 +1,1 @@
+alphaOeu[p_, q_, r_, s_] -> (onelooporder*KroneckerDelta[p, q]*(18*g1^4*KroneckerDelta[r, s] + 25*g1^2*yquPhi[fl1, s]*yquPhibar[fl1, r] + 30*g1^2*invepsilonbar*yquPhi[fl1, s]*yquPhibar[fl1, r] - 30*g1^2*Log[MPhi^2/μ^2]*yquPhi[fl1, s]*yquPhibar[fl1, r]))/(3240*MPhi^2*Pi^2)

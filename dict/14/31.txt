@@ -1,0 +1,1 @@
+alphaOeW[p_, q_] -> (-3*g2*onelooporder*yl[mif3, q]*yqlzeta[fl1, mif3]*yqlzetabar[fl1, p])/(128*Mzeta^2*Pi^2)

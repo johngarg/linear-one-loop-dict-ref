@@ -1,0 +1,1 @@
+alphaO3G -> (g3^3*onelooporder)/(1920*Mzeta^2*Pi^2)

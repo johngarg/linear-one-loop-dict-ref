@@ -1,0 +1,1 @@
+alphaOdB[p_, q_] -> (7*onelooporder*(g1*lambdadQ1[q]*lambdadQ1bar[mif3]*yd[p, mif3] - 3*g1*lambdadQ1[q]*lambdauQ1bar[fl1]*yu[p, fl1]))/(1152*MQ1^2*Pi^2)

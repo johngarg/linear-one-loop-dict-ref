@@ -1,0 +1,1 @@
+alphaOdG[p_, q_] -> (-7*onelooporder*yd[mif3, q]*(g3*yUpsilon[fl1, mif3]*yUpsilonbar[fl1, p] + g3*yUpsilon[mif3, fl1]*yUpsilonbar[fl1, p] + g3*yUpsilon[fl1, mif3]*yUpsilonbar[p, fl1] + g3*yUpsilon[mif3, fl1]*yUpsilonbar[p, fl1]))/(256*MUpsilon^2*Pi^2)

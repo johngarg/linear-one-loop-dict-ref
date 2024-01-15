@@ -1,0 +1,1 @@
+alphaOHud[p_, q_] -> (onelooporder*yd[mif3, q]*(yqlzeta[mif3, fl1]*yqlzetabar[mif4, fl1] + 8*yqqzeta[fl1, mif4]*yqqzetabar[fl1, mif3])*yubar[mif4, p])/(32*Mzeta^2*Pi^2)

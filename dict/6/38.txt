@@ -1,0 +1,1 @@
+alphaOlequ1[p_, q_, r_, s_] -> -1/8*(kappaXi1*kappaXi1bar*onelooporder*yl[p, q]*yu[r, s])/(MXi1^4*Pi^2)

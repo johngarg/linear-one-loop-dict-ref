@@ -1,0 +1,1 @@
+alphaOll[p_, q_, r_, s_] -> (onelooporder*(-2*g2^4*KroneckerDelta[p, s]*KroneckerDelta[q, r] - g1^4*KroneckerDelta[p, q]*KroneckerDelta[r, s] + g2^4*KroneckerDelta[p, q]*KroneckerDelta[r, s]))/(960*MDelta1^2*Pi^2)

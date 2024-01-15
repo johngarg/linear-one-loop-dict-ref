@@ -1,0 +1,1 @@
+alphaOqd1[p_, q_, r_, s_] -> -1/384*(onelooporder*lambdaSigma[fl1]*lambdaSigmabar[fl1]*yd[p, s]*ydbar[q, r])/(MSigma^2*Pi^2)

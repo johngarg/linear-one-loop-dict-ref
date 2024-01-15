@@ -1,0 +1,1 @@
+alphaOquqd1[p_, q_, r_, s_] -> (3*onelooporder*(lambdaT2[fl1]*lambdaT2bar[r]*yd[fl1, s]*yu[p, q] + 2*lambdaT2[fl1]*lambdaT2bar[fl1]*yd[r, s]*yu[p, q]))/(128*MT2^2*Pi^2)

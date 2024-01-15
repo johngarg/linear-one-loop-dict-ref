@@ -1,0 +1,1 @@
+alphaOlequ1[p_, q_, r_, s_] -> (-3*onelooporder*(lambdaT1[fl1]*lambdaT1bar[r]*yl[p, q]*yu[fl1, s] + 2*lambdaT1[fl1]*lambdaT1bar[fl1]*yl[p, q]*yu[r, s]))/(128*MT1^2*Pi^2)

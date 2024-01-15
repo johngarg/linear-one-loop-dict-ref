@@ -1,0 +1,1 @@
+alphaOH -> (lambdaHatomega4^3*onelooporder)/(32*Momega4^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOHu[p_, q_] -> 2*onelooporder*(-1/1440*(g1^4*KroneckerDelta[p, q])/(MUpsilon^2*Pi^2) - (yu[mif3, q]*yubar[mif4, p]*(yUpsilon[fl1, mif3]*yUpsilonbar[fl1, mif4] + yUpsilon[mif3, fl1]*yUpsilonbar[fl1, mif4] + yUpsilon[fl1, mif3]*yUpsilonbar[mif4, fl1] + yUpsilon[mif3, fl1]*yUpsilonbar[mif4, fl1]))/(64*MUpsilon^2*Pi^2))

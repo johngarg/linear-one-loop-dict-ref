@@ -1,0 +1,1 @@
+alphaOeW[p_, q_] -> (g2*onelooporder*yl[mif3, q]*yS1[fl1, p]*yS1bar[fl1, mif3])/(96*MS1^2*Pi^2)

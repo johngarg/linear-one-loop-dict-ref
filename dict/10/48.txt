@@ -1,0 +1,1 @@
+alphaOqq3[p_, q_, r_, s_] -> -1/7680*(g3^4*onelooporder*KroneckerDelta[p, s]*KroneckerDelta[q, r])/(Momega2^2*Pi^2)

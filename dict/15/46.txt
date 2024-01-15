@@ -1,0 +1,1 @@
+alphaOqe[p_, q_, r_, s_] -> (onelooporder*KroneckerDelta[r, s]*(g1^4*KroneckerDelta[p, q] - 200*g1^2*yqqOmega1[fl1, q]*yqqOmega1bar[fl1, p] - 120*g1^2*invepsilonbar*yqqOmega1[fl1, q]*yqqOmega1bar[fl1, p] + 120*g1^2*Log[MOmega1^2/μ^2]*yqqOmega1[fl1, q]*yqqOmega1bar[fl1, p] - 90*g1^2*KroneckerDelta[r, t]*yqqOmega1[q, r]*yqqOmega1bar[p, t]))/(4320*MOmega1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOud8[p_, q_, r_, s_] -> -1/1440*(onelooporder*KroneckerDelta[r, s]*(3*g3^4*KroneckerDelta[p, q] - 10*g3^2*yluPi7[fl1, q]*yluPi7bar[fl1, p]))/(MPi7^2*Pi^2)

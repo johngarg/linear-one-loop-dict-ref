@@ -1,0 +1,1 @@
+alphaOquqd1[p_, q_, r_, s_] -> (kappaS^2*onelooporder*yd[r, s]*yu[p, q])/(96*MS^4*Pi^2)

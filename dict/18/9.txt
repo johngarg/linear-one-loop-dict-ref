@@ -1,0 +1,1 @@
+alphaOHD -> ((-g1^4 - 60*lambdaHatPrimeUpsilon^2)*onelooporder)/(480*MUpsilon^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOld[p_, q_, r_, s_] -> -1/270*(g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MU^2*Pi^2)

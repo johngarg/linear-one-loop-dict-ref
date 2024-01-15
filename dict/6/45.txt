@@ -1,0 +1,1 @@
+alphaOqd8[p_, q_, r_, s_] -> -1/8*(kappaXi1*kappaXi1bar*onelooporder*yd[p, s]*ydbar[q, r])/(MXi1^4*Pi^2)

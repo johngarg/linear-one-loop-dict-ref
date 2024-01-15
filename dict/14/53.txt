@@ -1,0 +1,1 @@
+alphaOuB[p_, q_] -> (g1*onelooporder*(yqlzeta[mif3, fl1]*yqlzetabar[p, fl1] - 4*yqqzeta[fl1, p]*yqqzetabar[fl1, mif3])*yu[mif3, q])/(96*Mzeta^2*Pi^2)

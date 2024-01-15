@@ -1,0 +1,1 @@
+alphaOeH[p_, q_] -> 0

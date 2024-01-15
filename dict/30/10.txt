@@ -1,0 +1,1 @@
+alphaOHG -> (g3^2*onelooporder*lambdaQ7[fl1]*lambdaQ7bar[fl1])/(96*MQ7^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOqe[p_, q_, r_, s_] -> 0

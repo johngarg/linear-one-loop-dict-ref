@@ -1,0 +1,1 @@
+alphaOuu[p_, q_, r_, s_] -> -1/540*(g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MS2^2*Pi^2)

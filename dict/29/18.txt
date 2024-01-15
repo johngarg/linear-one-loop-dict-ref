@@ -1,0 +1,1 @@
+alphaOHl1[p_, q_] -> (onelooporder*KroneckerDelta[p, q]*(10*g1^4 - 15*g1^2*lambdaQ5[fl1]*lambdaQ5bar[fl1] - 6*g1^2*invepsilonbar*lambdaQ5[fl1]*lambdaQ5bar[fl1] + 6*g1^2*lambdaQ5[fl1]*lambdaQ5bar[fl1]*Log[MQ5^2/μ^2]))/(576*MQ5^2*Pi^2)

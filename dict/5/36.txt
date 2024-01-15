@@ -1,0 +1,1 @@
+alphaOle[p_, q_, r_, s_] -> -1/64*(kappaXi^2*onelooporder*yl[p, s]*ylbar[q, r])/(MXi^4*Pi^2)

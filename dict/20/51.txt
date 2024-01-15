@@ -1,0 +1,1 @@
+alphaOquqd1[p_, q_, r_, s_] -> (onelooporder*lambdaN[fl1]*lambdaNbar[fl1]*yd[r, s]*yu[p, q])/(48*MN^2*Pi^2)

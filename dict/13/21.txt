@@ -1,0 +1,1 @@
+alphaOHq3[p_, q_] -> (onelooporder*(-9*g2^4*KroneckerDelta[p, q] + 10*g2^2*yeqPi7[fl1, q]*yeqPi7bar[fl1, p] - 90*yeqPi7[fl1, q]*yl[fl2, fl1]*yluPi7bar[fl2, mif3]*yu[p, mif3] - 90*yeqPi7bar[fl1, p]*ylbar[fl2, fl1]*yluPi7[fl2, mif3]*yubar[q, mif3] - 60*yluPi7[fl1, mif4]*yluPi7bar[fl1, mif3]*yu[p, mif3]*yubar[q, mif4]))/(11520*MPi7^2*Pi^2)

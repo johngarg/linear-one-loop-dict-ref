@@ -1,0 +1,1 @@
+alphaOlequ1[p_, q_, r_, s_] -> (onelooporder*yl[p, q]*(3*ydbar[fl1, fl2]*ydqPhibar[fl2, r]*yquPhi[fl1, s] + 2*invepsilonbar*ydbar[fl1, fl2]*ydqPhibar[fl2, r]*yquPhi[fl1, s] - 2*Log[MPhi^2/μ^2]*ydbar[fl1, fl2]*ydqPhibar[fl2, r]*yquPhi[fl1, s]))/(48*MPhi^2*Pi^2)

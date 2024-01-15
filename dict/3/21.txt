@@ -1,0 +1,1 @@
+alphaOHq3[p_, q_] -> 0

@@ -1,0 +1,1 @@
+alphaOeW[p_, q_] -> -1/768*(g2*onelooporder*(yl[mif3, q]*yvarphie[fl1, mif3]*yvarphiebar[fl1, p] + 6*yl[t, s]*yvarphie[s, t]*yvarphiebar[q, p]))/(Mvarphi^2*Pi^2)

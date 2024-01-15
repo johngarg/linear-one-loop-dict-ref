@@ -1,0 +1,1 @@
+alphaOHq3[p_, q_] -> -1/7680*(onelooporder*KroneckerDelta[p, q]*(32*g2^4 - 35*g2^2*lambdaSigma[fl1]*lambdaSigmabar[fl1] - 10*g2^2*invepsilonbar*lambdaSigma[fl1]*lambdaSigmabar[fl1] + 10*g2^2*lambdaSigma[fl1]*lambdaSigmabar[fl1]*Log[MSigma^2/μ^2]))/(MSigma^2*Pi^2)

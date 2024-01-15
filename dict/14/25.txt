@@ -1,0 +1,1 @@
+alphaOdG[p_, q_] -> -1/128*(g3*onelooporder*yd[mif3, q]*(yqlzeta[mif3, fl1]*yqlzetabar[p, fl1] - 4*yqqzeta[fl1, p]*yqqzetabar[fl1, mif3]))/(Mzeta^2*Pi^2)

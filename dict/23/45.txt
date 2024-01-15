@@ -1,0 +1,1 @@
+alphaOqd8[p_, q_, r_, s_] -> -1/48*(onelooporder*lambdaDelta3[fl1]*lambdaDelta3bar[fl1]*yd[p, s]*ydbar[q, r])/(MDelta3^2*Pi^2)

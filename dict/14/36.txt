@@ -1,0 +1,1 @@
+alphaOle[p_, q_, r_, s_] -> -1/960*(onelooporder*KroneckerDelta[r, s]*(g1^4*KroneckerDelta[p, q] + 30*g1^2*yqlzeta[fl1, q]*yqlzetabar[fl1, p] + 30*g1^2*invepsilonbar*yqlzeta[fl1, q]*yqlzetabar[fl1, p] - 30*g1^2*Log[Mzeta^2/μ^2]*yqlzeta[fl1, q]*yqlzetabar[fl1, p]))/(Mzeta^2*Pi^2)

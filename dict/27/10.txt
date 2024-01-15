@@ -1,0 +1,1 @@
+alphaOHG -> (g3^2*onelooporder*lambdaD[fl1]*lambdaDbar[fl1])/(96*MD^2*Pi^2)

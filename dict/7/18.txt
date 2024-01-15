@@ -1,0 +1,1 @@
+alphaOHl1[p_, q_] -> (g1^4*onelooporder*KroneckerDelta[p, q])/(1920*MTheta1^2*Pi^2)

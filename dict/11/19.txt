@@ -1,0 +1,1 @@
+alphaOHl3[p_, q_] -> -1/128*(onelooporder*yedomega4[mif4, fl1]*yedomega4bar[mif3, fl1]*yl[p, mif3]*ylbar[q, mif4])/(Momega4^2*Pi^2)

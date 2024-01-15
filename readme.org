@@ -1,0 +1,3 @@
+* Reference one-loop dictionary for linear SM extensions
+
+This repository contains the matching data linked to in Fig. 1 in our paper arXiv:2402.XXXXX.

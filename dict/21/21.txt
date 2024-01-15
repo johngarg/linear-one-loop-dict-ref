@@ -1,0 +1,1 @@
+alphaOHq3[p_, q_] -> -1/1152*(g2^2*onelooporder*KroneckerDelta[p, q]*(5*lambdaE[fl1]*lambdaEbar[fl1] + 6*invepsilonbar*lambdaE[fl1]*lambdaEbar[fl1] - 6*lambdaE[fl1]*lambdaEbar[fl1]*Log[ME^2/μ^2]))/(ME^2*Pi^2)

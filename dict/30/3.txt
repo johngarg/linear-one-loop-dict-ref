@@ -1,0 +1,1 @@
+alphaO3W -> -1/960*(g2^3*onelooporder)/(MQ7^2*Pi^2)

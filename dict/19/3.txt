@@ -1,0 +1,1 @@
+alphaO3W -> (g2^3*onelooporder)/(720*MPhi^2*Pi^2)

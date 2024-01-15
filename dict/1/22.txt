@@ -1,0 +1,1 @@
+alphaOHu[p_, q_] -> (onelooporder*(-34*g1^2*kappaS^2*KroneckerDelta[p, q] - 12*g1^2*invepsilonbar*kappaS^2*KroneckerDelta[p, q] + 12*g1^2*kappaS^2*KroneckerDelta[p, q]*Log[MS^2/μ^2] + 135*kappaS^2*yu[fl1, q]*yubar[fl1, p] + 54*invepsilonbar*kappaS^2*yu[fl1, q]*yubar[fl1, p] - 54*kappaS^2*Log[MS^2/μ^2]*yu[fl1, q]*yubar[fl1, p]))/(3456*MS^4*Pi^2)

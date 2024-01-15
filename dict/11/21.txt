@@ -1,0 +1,1 @@
+alphaOHq3[p_, q_] -> (onelooporder*(-(yd[p, mif3]*ydbar[q, mif4]*yedomega4[fl1, mif4]*yedomega4bar[fl1, mif3]) - 8*yu[p, mif3]*yubar[q, mif4]*yuuomega4[fl1, mif3]*yuuomega4bar[fl1, mif4]))/(384*Momega4^2*Pi^2)

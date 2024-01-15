@@ -1,0 +1,1 @@
+alphaO3W -> -1/1440*(g2^3*onelooporder)/(MSigma^2*Pi^2)

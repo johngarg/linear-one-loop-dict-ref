@@ -1,0 +1,1 @@
+alphaOqq1[p_, q_, r_, s_] -> -1/4320*(g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(ME^2*Pi^2)

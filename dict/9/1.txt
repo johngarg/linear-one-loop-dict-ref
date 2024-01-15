@@ -1,0 +1,1 @@
+alphaO3G -> (g3^3*onelooporder)/(5760*Momega1^2*Pi^2)

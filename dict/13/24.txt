@@ -1,0 +1,1 @@
+alphaOdB[p_, q_] -> (-19*g1*onelooporder*yd[mif3, q]*yeqPi7[fl1, mif3]*yeqPi7bar[fl1, p])/(2304*MPi7^2*Pi^2)

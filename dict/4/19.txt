@@ -1,0 +1,1 @@
+alphaOHl3[p_, q_] -> (onelooporder*(-3*g2^4*KroneckerDelta[p, q] + 10*g2^2*yvarphie[fl1, q]*yvarphiebar[fl1, p] - 60*yl[p, mif3]*ylbar[q, mif4]*yvarphie[mif3, fl1]*yvarphiebar[mif4, fl1]))/(11520*Mvarphi^2*Pi^2)

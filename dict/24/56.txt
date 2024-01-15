@@ -1,0 +1,1 @@
+alphaOuW[p_, q_] -> 0

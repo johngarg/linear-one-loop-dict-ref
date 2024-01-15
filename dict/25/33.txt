@@ -1,0 +1,1 @@
+alphaOee[p_, q_, r_, s_] -> -1/40*(g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MSigma1^2*Pi^2)

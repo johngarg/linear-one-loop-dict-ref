@@ -1,0 +1,1 @@
+alphaOeH[p_, q_] -> (onelooporder*(yl[mif3, q]*yl[p, mif4]*ylbar[mif5, mif4]*yS1[fl1, mif5]*yS1bar[fl1, mif3] + 6*lambdaHatS1*yl[mif3, q]*yS1[fl1, p]*yS1bar[fl1, mif3] + yl[mif4, q]*yl[p, mif3]*ylbar[mif5, mif3]*yS1[fl1, mif5]*yS1bar[fl1, mif4]))/(96*MS1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOlu[p_, q_, r_, s_] -> (5*g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(216*MQ5^2*Pi^2)

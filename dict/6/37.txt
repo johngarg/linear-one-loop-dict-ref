@@ -1,0 +1,1 @@
+alphaOledq[p_, q_, r_, s_] -> (kappaXi1*kappaXi1bar*onelooporder*ydbar[s, r]*yl[p, q])/(8*MXi1^4*Pi^2)

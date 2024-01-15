@@ -1,0 +1,1 @@
+alphaOHe[p_, q_] -> (3*g1^4*onelooporder*KroneckerDelta[p, q])/(320*MTheta3^2*Pi^2)

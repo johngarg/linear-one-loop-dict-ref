@@ -1,0 +1,1 @@
+alphaOdW[p_, q_] -> (onelooporder*(6*g2*lambdaU[fl1]*lambdaUbar[p]*yd[fl1, q] - g2*lambdaU[mif3]*lambdaUbar[p]*yd[mif3, q]))/(384*MU^2*Pi^2)

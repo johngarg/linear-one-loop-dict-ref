@@ -1,0 +1,1 @@
+alphaOH -> ((-(g2^4*lam) + 20*lambdaHatPi1^3 + 30*lambdaHatPi1^2*lambdaHatPrimePi1 + 20*lam*lambdaHatPrimePi1^2 + 30*lambdaHatPi1*lambdaHatPrimePi1^2 + 10*lambdaHatPrimePi1^3)*onelooporder)/(320*MPi1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOHB -> -1/1536*(g1^2*onelooporder*lambdaT1[fl1]*lambdaT1bar[fl1])/(MT1^2*Pi^2)

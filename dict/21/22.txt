@@ -1,0 +1,1 @@
+alphaOHu[p_, q_] -> -1/4320*(onelooporder*KroneckerDelta[p, q]*(24*g1^4 - 65*g1^2*lambdaE[fl1]*lambdaEbar[fl1] - 30*g1^2*invepsilonbar*lambdaE[fl1]*lambdaEbar[fl1] + 30*g1^2*lambdaE[fl1]*lambdaEbar[fl1]*Log[ME^2/μ^2]))/(ME^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOHD -> -1/1440*(g1^4*onelooporder)/(MOmega1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOquqd8[p_, q_, r_, s_] -> -1/2*(onelooporder*yd[r, s]*yqqzeta[p, r]*yqqzetabar[p, r]*yu[p, q])/(Mzeta^2*Pi^2)

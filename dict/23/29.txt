@@ -1,0 +1,1 @@
+alphaOeB[p_, q_] -> (onelooporder*(-9*g1*lambdaDelta3[q]*lambdaDelta3bar[fl1]*yl[p, fl1] - 5*g1*lambdaDelta3[q]*lambdaDelta3bar[mif3]*yl[p, mif3]))/(384*MDelta3^2*Pi^2)

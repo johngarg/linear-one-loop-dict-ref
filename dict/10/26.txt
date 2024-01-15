@@ -1,0 +1,1 @@
+alphaOdH[p_, q_] -> (onelooporder*(yd[mif4, q]*yd[p, mif3]*ydbar[mif4, mif5]*yomega2[fl1, mif3]*yomega2bar[fl1, mif5] + yd[mif3, q]*yd[p, mif4]*ydbar[mif3, mif5]*yomega2[fl1, mif4]*yomega2bar[fl1, mif5] + 6*lambdaHatomega2*yd[p, mif3]*yomega2[fl1, mif3]*yomega2bar[fl1, q] - 6*yd[fl1, fl2]*yd[p, mif3]*ydbar[fl1, fl3]*yomega2[fl2, mif3]*yomega2bar[fl3, q]))/(48*Momega2^2*Pi^2)

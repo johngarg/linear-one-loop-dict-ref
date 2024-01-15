@@ -1,0 +1,1 @@
+alphaOld[p_, q_, r_, s_] -> -1/6480*(onelooporder*KroneckerDelta[p, q]*(9*g1^4*KroneckerDelta[r, s] - 55*g1^2*ydqPhi[r, fl1]*ydqPhibar[s, fl1] - 30*g1^2*invepsilonbar*ydqPhi[r, fl1]*ydqPhibar[s, fl1] + 30*g1^2*Log[MPhi^2/μ^2]*ydqPhi[r, fl1]*ydqPhibar[s, fl1]))/(MPhi^2*Pi^2)

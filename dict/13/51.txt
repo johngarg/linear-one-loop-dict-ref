@@ -1,0 +1,1 @@
+alphaOquqd1[p_, q_, r_, s_] -> -1/64*(onelooporder*yd[r, s]*(3*yeqPi7bar[fl1, p]*ylbar[fl2, fl1]*yluPi7[fl2, q] + 2*invepsilonbar*yeqPi7bar[fl1, p]*ylbar[fl2, fl1]*yluPi7[fl2, q] - 2*Log[MPi7^2/μ^2]*yeqPi7bar[fl1, p]*ylbar[fl2, fl1]*yluPi7[fl2, q]))/(MPi7^2*Pi^2)

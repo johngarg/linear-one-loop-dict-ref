@@ -1,0 +1,1 @@
+alphaOdB[p_, q_] -> -1/384*(g1*onelooporder*lambdaT1[mif3]*lambdaT1bar[p]*yd[mif3, q])/(MT1^2*Pi^2)

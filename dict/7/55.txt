@@ -1,0 +1,1 @@
+alphaOuH[p_, q_] -> -1/1152*((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 120*lambdaTheta1*lambdaTheta1bar)*onelooporder*yu[p, q])/(MTheta1^2*Pi^2)

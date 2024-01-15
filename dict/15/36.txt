@@ -1,0 +1,1 @@
+alphaOle[p_, q_, r_, s_] -> -1/1440*(g1^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MOmega1^2*Pi^2)

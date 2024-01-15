@@ -1,0 +1,1 @@
+alphaOHl1[p_, q_] -> (onelooporder*(17*g1^2*kappaXi^2*KroneckerDelta[p, q] + 6*g1^2*invepsilonbar*kappaXi^2*KroneckerDelta[p, q] - 6*g1^2*kappaXi^2*KroneckerDelta[p, q]*Log[MXi^2/μ^2] + 45*kappaXi^2*yl[p, fl1]*ylbar[q, fl1] + 18*invepsilonbar*kappaXi^2*yl[p, fl1]*ylbar[q, fl1] - 18*kappaXi^2*Log[MXi^2/μ^2]*yl[p, fl1]*ylbar[q, fl1]))/(768*MXi^4*Pi^2)

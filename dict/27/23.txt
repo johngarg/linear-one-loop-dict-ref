@@ -1,0 +1,1 @@
+alphaOHud[p_, q_] -> (onelooporder*(-3*lambdaD[mif3]*lambdaDbar[fl1]*yd[mif3, q]*yubar[fl1, p] + 2*lambdaD[mif3]*lambdaDbar[mif4]*yd[mif3, q]*yubar[mif4, p]))/(96*MD^2*Pi^2)

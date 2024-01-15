@@ -1,0 +1,1 @@
+alphaOHW -> -1/768*(g2^2*(lambdaHatPrimevarphi + 2*lambdaHatvarphi)*onelooporder)/(Mvarphi^2*Pi^2)

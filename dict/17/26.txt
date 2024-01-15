@@ -1,0 +1,1 @@
+alphaOdH[p_, q_] -> 0

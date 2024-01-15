@@ -1,0 +1,1 @@
+alphaOeW[p_, q_] -> -1/128*(g2*onelooporder*lambdaDelta3[q]*lambdaDelta3bar[fl1]*yl[p, fl1])/(MDelta3^2*Pi^2)

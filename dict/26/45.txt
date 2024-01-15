@@ -1,0 +1,1 @@
+alphaOqd8[p_, q_, r_, s_] -> (onelooporder*(-24*g3^4*KroneckerDelta[p, q]*KroneckerDelta[r, s] + 35*g3^2*KroneckerDelta[r, s]*lambdaU[q]*lambdaUbar[p] + 90*lambdaU[q]*lambdaUbar[fl1]*yd[p, s]*ydbar[fl1, r] + 90*lambdaU[fl1]*lambdaUbar[p]*yd[fl1, s]*ydbar[q, r] - 180*lambdaU[fl1]*lambdaUbar[fl1]*yd[p, s]*ydbar[q, r]))/(2880*MU^2*Pi^2)

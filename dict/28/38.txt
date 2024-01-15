@@ -1,0 +1,1 @@
+alphaOlequ1[p_, q_, r_, s_] -> (onelooporder*(lambdadQ1bar[fl1]*lambdauQ1[s]*yd[r, fl1]*yl[p, q] - 2*lambdadQ1[fl1]*lambdadQ1bar[fl1]*yl[p, q]*yu[r, s] - 2*lambdauQ1[fl1]*lambdauQ1bar[fl1]*yl[p, q]*yu[r, s]))/(32*MQ1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOlq3[p_, q_, r_, s_] -> -1/160*(g2^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MQ5^2*Pi^2)

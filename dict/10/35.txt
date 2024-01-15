@@ -1,0 +1,1 @@
+alphaOld[p_, q_, r_, s_] -> -1/2160*(onelooporder*KroneckerDelta[p, q]*(g1^4*KroneckerDelta[r, s] - 100*g1^2*yomega2[fl1, r]*yomega2bar[fl1, s] - 60*g1^2*invepsilonbar*yomega2[fl1, r]*yomega2bar[fl1, s] + 60*g1^2*Log[Momega2^2/μ^2]*yomega2[fl1, r]*yomega2bar[fl1, s] - 30*g1^2*KroneckerDelta[r, t]*yomega2[r, t]*yomega2bar[s, r]))/(Momega2^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOqu8[p_, q_, r_, s_] -> -1/32*(kappaXi^2*onelooporder*yu[p, s]*yubar[q, r])/(MXi^4*Pi^2)

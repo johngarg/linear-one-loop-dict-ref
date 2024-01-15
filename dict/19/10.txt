@@ -1,0 +1,1 @@
+alphaOHG -> ((-(g3^2*lambdaHatPhi) - g3^2*lambdaHatPrimePhi)*onelooporder)/(32*MPhi^2*Pi^2)

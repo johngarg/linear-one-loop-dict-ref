@@ -1,0 +1,1 @@
+alphaOuW[p_, q_] -> -1/128*(g2*onelooporder*lambdaQ7[q]*lambdaQ7bar[fl1]*yu[p, fl1])/(MQ7^2*Pi^2)

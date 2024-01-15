@@ -1,0 +1,1 @@
+alphaOHG -> (-5*g3^2*lambdaHatOmega2*onelooporder)/(384*MOmega2^2*Pi^2)

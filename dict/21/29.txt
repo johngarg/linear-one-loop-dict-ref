@@ -1,0 +1,1 @@
+alphaOeB[p_, q_] -> -1/192*(g1*onelooporder*lambdaE[mif3]*lambdaEbar[p]*yl[mif3, q])/(ME^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOlu[p_, q_, r_, s_] -> (onelooporder*KroneckerDelta[p, q]*(2*g1^4*KroneckerDelta[r, s] + 35*g1^2*yudOmega1[s, fl1]*yudOmega1bar[r, fl1] + 30*g1^2*invepsilonbar*yudOmega1[s, fl1]*yudOmega1bar[r, fl1] - 30*g1^2*Log[MOmega1^2/μ^2]*yudOmega1[s, fl1]*yudOmega1bar[r, fl1]))/(4320*MOmega1^2*Pi^2)

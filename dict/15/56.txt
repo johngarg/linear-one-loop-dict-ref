@@ -1,0 +1,1 @@
+alphaOuW[p_, q_] -> (onelooporder*(4*g2*yqqOmega1[fl1, mif3]*yqqOmega1bar[fl1, p]*yu[mif3, q] + 9*g2*ydbar[fl1, fl2]*yqqOmega1bar[fl1, p]*yudOmega1[q, fl2] + 6*g2*invepsilonbar*ydbar[fl1, fl2]*yqqOmega1bar[fl1, p]*yudOmega1[q, fl2] - 6*g2*Log[MOmega1^2/μ^2]*ydbar[fl1, fl2]*yqqOmega1bar[fl1, p]*yudOmega1[q, fl2]))/(192*MOmega1^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaOHB -> (g1^2*onelooporder*(lambdadQ1[fl1]*lambdadQ1bar[fl1] + 10*lambdauQ1[fl1]*lambdauQ1bar[fl1]))/(576*MQ1^2*Pi^2)

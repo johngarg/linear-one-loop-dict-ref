@@ -1,0 +1,1 @@
+alphaOlequ1[p_, q_, r_, s_] -> -1/16*(onelooporder*yl[p, q]*(3*ydbar[fl1, fl2]*yqqOmega1bar[fl1, r]*yudOmega1[s, fl2] + 2*invepsilonbar*ydbar[fl1, fl2]*yqqOmega1bar[fl1, r]*yudOmega1[s, fl2] - 2*Log[MOmega1^2/μ^2]*ydbar[fl1, fl2]*yqqOmega1bar[fl1, r]*yudOmega1[s, fl2]))/(MOmega1^2*Pi^2)

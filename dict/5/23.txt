@@ -1,0 +1,1 @@
+alphaOHud[p_, q_] -> (3*onelooporder*(5*kappaXi^2*yd[fl1, q]*yubar[fl1, p] + 2*invepsilonbar*kappaXi^2*yd[fl1, q]*yubar[fl1, p] - 2*kappaXi^2*Log[MXi^2/μ^2]*yd[fl1, q]*yubar[fl1, p]))/(64*MXi^4*Pi^2)

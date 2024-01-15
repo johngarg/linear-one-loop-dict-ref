@@ -1,0 +1,1 @@
+alphaOlq3[p_, q_, r_, s_] -> -1/3840*(onelooporder*KroneckerDelta[r, s]*(3*g2^4*KroneckerDelta[p, q] - 10*g2^2*yPi1[p, fl1]*yPi1bar[q, fl1]))/(MPi1^2*Pi^2)

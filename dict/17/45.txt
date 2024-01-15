@@ -1,0 +1,1 @@
+alphaOqd8[p_, q_, r_, s_] -> -1/192*(g3^4*onelooporder*KroneckerDelta[p, q]*KroneckerDelta[r, s])/(MOmega4^2*Pi^2)

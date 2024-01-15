@@ -1,0 +1,1 @@
+alphaOHB -> (g1^2*kappaS^2*onelooporder)/(192*MS^4*Pi^2)

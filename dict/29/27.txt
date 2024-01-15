@@ -1,0 +1,1 @@
+alphaOdW[p_, q_] -> -1/128*(g2*onelooporder*lambdaQ5[q]*lambdaQ5bar[fl1]*yd[p, fl1])/(MQ5^2*Pi^2)

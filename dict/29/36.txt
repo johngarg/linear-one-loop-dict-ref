@@ -1,0 +1,1 @@
+alphaOle[p_, q_, r_, s_] -> (onelooporder*(-10*g1^4*KroneckerDelta[p, q]*KroneckerDelta[r, s] - 9*lambdaQ5[fl1]*lambdaQ5bar[fl1]*yl[p, s]*ylbar[q, r]))/(288*MQ5^2*Pi^2)

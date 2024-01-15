@@ -1,0 +1,1 @@
+alphaOlq3[p_, q_, r_, s_] -> -1/4320*(onelooporder*KroneckerDelta[p, q]*(9*g2^4*KroneckerDelta[r, s] - 5*g2^2*ydqPhi[fl1, s]*ydqPhibar[fl1, r] - 5*g2^2*yquPhi[r, fl1]*yquPhibar[s, fl1]))/(MPhi^2*Pi^2)

@@ -1,0 +1,1 @@
+alphaO3W -> -1/2880*(g2^3*onelooporder)/(MDelta3^2*Pi^2)

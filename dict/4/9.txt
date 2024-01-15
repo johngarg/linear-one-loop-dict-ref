@@ -1,0 +1,1 @@
+alphaOHD -> ((-g1^4 - 20*lambdaHatPrimevarphi^2)*onelooporder)/(1920*Mvarphi^2*Pi^2)

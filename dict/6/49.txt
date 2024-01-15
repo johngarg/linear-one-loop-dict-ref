@@ -1,0 +1,1 @@
+alphaOqu1[p_, q_, r_, s_] -> (onelooporder*(-(g1^4*MXi1^2*KroneckerDelta[p, q]*KroneckerDelta[r, s]) - 30*kappaXi1*kappaXi1bar*yu[p, s]*yubar[q, r]))/(1440*MXi1^4*Pi^2)

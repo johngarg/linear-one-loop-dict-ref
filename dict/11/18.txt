@@ -1,0 +1,1 @@
+alphaOHl1[p_, q_] -> (onelooporder*(16*g1^4*KroneckerDelta[p, q] - 45*yedomega4[mif4, fl1]*yedomega4bar[mif3, fl1]*yl[p, mif3]*ylbar[q, mif4]))/(5760*Momega4^2*Pi^2)

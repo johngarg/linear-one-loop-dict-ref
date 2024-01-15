@@ -1,0 +1,1 @@
+alphaOuH[p_, q_] -> -1/1280*((g2^4 - 20*lambdaHatPrimePi1^2)*onelooporder*yu[p, q])/(MPi1^2*Pi^2)

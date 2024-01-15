@@ -1,0 +1,1 @@
+alphaOHW -> -1/192*(g2^2*(4*kappaXi1*kappaXi1bar + lambdaXi1*MXi1^2)*onelooporder)/(MXi1^4*Pi^2)

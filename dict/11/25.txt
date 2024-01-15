@@ -1,0 +1,1 @@
+alphaOdG[p_, q_] -> -1/384*(g3*onelooporder*yd[p, mif3]*yedomega4[fl1, q]*yedomega4bar[fl1, mif3])/(Momega4^2*Pi^2)

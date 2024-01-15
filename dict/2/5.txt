@@ -1,0 +1,1 @@
+alphaOH -> (lambdaHatS1^3*onelooporder)/(96*MS1^2*Pi^2)

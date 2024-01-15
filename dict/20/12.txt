@@ -1,0 +1,1 @@
+alphaOHW -> (g2^2*onelooporder*lambdaN[fl1]*lambdaNbar[fl1])/(384*MN^2*Pi^2)

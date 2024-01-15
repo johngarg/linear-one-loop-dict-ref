@@ -1,0 +1,1 @@
+alphaOeW[p_, q_] -> (onelooporder*(2*g2*lambdaSigma[fl1]*lambdaSigmabar[p]*yl[fl1, q] + g2*lambdaSigma[mif3]*lambdaSigmabar[p]*yl[mif3, q]))/(512*MSigma^2*Pi^2)

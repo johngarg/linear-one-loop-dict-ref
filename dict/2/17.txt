@@ -1,0 +1,1 @@
+alphaOHe[p_, q_] -> (onelooporder*(g1^4*KroneckerDelta[p, q] + 20*yl[mif3, q]*ylbar[mif4, p]*yS1[fl1, mif4]*yS1bar[fl1, mif3]))/(960*MS1^2*Pi^2)
