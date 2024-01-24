@@ -1,3 +1,15 @@
 * Reference one-loop dictionary for linear SM extensions
 
-This repository contains the matching data linked to in Fig. 1 in our paper arXiv:2402.XXXXX.
+This repository contains the matching data linked to in Fig. 1 in our paper
+arXiv:2402.XXXXX.
+
+The outer directory structure represents the rows of the figure, i.e. the
+B-conserving SMEFT operators as they appear in the order they appear along the
+y-axis. The inner structure represents the columns of the figure, i.e. linear SM
+extensions as they appear along the x-axis of the heat map.
+
+Although this reference is not intended to be used apart from the figure in our
+paper, we have also included the operator name and flavour indices as a
+Mathematica replacement rule in each text file, and the name of the mass in the
+denominator of each matching expression can also be used to identify which
+multiplet has been integrated out.
