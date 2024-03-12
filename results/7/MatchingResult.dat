@@ -1,6 +1,6 @@
 MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1, 
         alphaO3G -> 0, alphaO3Gt -> 0, alphaO3W -> 0, alphaO3Wt -> 0, 
-        alphaOH -> (lambdaTheta3*lambdaTheta3bar)/(2*MTheta3^2), 
+        alphaOH -> (lambdaTheta1*lambdaTheta1bar)/(6*MTheta1^2), 
         alphaOHB -> 0, alphaOHBox -> 0, alphaOHBt -> 0, alphaOHD -> 0, 
         alphaOHG -> 0, alphaOHGt -> 0, alphaOHW -> 0, alphaOHWB -> 0, 
         alphaOHWBt -> 0, alphaOHWt -> 0, alphaOlambda -> lam, 
@@ -416,70 +416,92 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
         alphaRWqp[fl99_, fl97_] -> 0, alphaRWqpbar[fl99_, fl97_] -> 0, 
         alphaRWqtp[fl99_, fl97_] -> 0, alphaRWqtpbar[fl99_, fl97_] -> 0, 
         alphaWeinberg[fl97_, fl99_] -> 0, alphaWeinbergbar[fl97_, fl99_] -> 
-         0}, {}}, {{alphaKB -> (3*g1^2*invepsilonbar)/(16*Pi^2) - 
-          (3*g1^2*Log[MTheta3^2/\[Mu]^2])/(16*Pi^2), alphaKG -> 0, 
+         0}, {}}, {{alphaKB -> (g1^2*invepsilonbar)/(48*Pi^2) - 
+          (g1^2*Log[MTheta1^2/\[Mu]^2])/(48*Pi^2), alphaKG -> 0, 
         alphaKH -> 0, alphaKW -> (5*g2^2*invepsilonbar)/(48*Pi^2) - 
-          (5*g2^2*Log[MTheta3^2/\[Mu]^2])/(48*Pi^2), alphaO3G -> 0, 
-        alphaO3Gt -> 0, alphaO3W -> g2^3/(576*MTheta3^2*Pi^2), 
-        alphaO3Wt -> 0, alphaOH -> (5*lambdaHatPrimeTheta3^2*lambdaHatTheta3)/
-           (32*MTheta3^2*Pi^2) + lambdaHatTheta3^3/(24*MTheta3^2*Pi^2) + 
-          (21*lam*lambdaTheta3*lambdaTheta3bar)/(16*MTheta3^2*Pi^2) + 
-          (21*invepsilonbar*lam*lambdaTheta3*lambdaTheta3bar)/
-           (16*MTheta3^2*Pi^2) + (15*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar)/(16*MTheta3^2*Pi^2) + 
-          (15*invepsilonbar*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar)/(32*MTheta3^2*Pi^2) + 
-          (9*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar)/
-           (16*MTheta3^2*Pi^2) + (3*invepsilonbar*lambdaHatTheta3*
-            lambdaTheta3*lambdaTheta3bar)/(16*MTheta3^2*Pi^2) - 
-          (21*lam*lambdaTheta3*lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/
-           (16*MTheta3^2*Pi^2) - (15*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/(32*MTheta3^2*Pi^2) - 
-          (3*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar*
-            Log[MTheta3^2/\[Mu]^2])/(16*MTheta3^2*Pi^2), 
-        alphaOHB -> (-3*g1^2*lambdaHatTheta3)/(64*MTheta3^2*Pi^2), 
-        alphaOHBox -> (-5*lambdaHatPrimeTheta3^2)/(192*MTheta3^2*Pi^2) - 
-          lambdaHatTheta3^2/(48*MTheta3^2*Pi^2), alphaOHBt -> 0, 
-        alphaOHD -> (-5*lambdaHatPrimeTheta3^2)/(48*MTheta3^2*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*MTheta3^2*Pi^2), alphaOHG -> 0, 
-        alphaOHGt -> 0, alphaOHW -> (-5*g2^2*lambdaHatTheta3)/
-          (192*MTheta3^2*Pi^2), alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta3)/
-          (64*MTheta3^2*Pi^2), alphaOHWBt -> 0, alphaOHWt -> 0, 
-        alphaOlambda -> (-5*invepsilonbar*lambdaHatPrimeTheta3^2)/(32*Pi^2) - 
-          (invepsilonbar*lambdaHatTheta3^2)/(8*Pi^2) - 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*Pi^2) - 
-          (3*invepsilonbar*lambdaTheta3*lambdaTheta3bar)/(8*Pi^2) - 
-          (3*lambdaTheta3*lambdaTheta3bar*muH^2)/(8*MTheta3^2*Pi^2) - 
-          (3*invepsilonbar*lambdaTheta3*lambdaTheta3bar*muH^2)/
-           (8*MTheta3^2*Pi^2) + (5*lambdaHatPrimeTheta3^2*
-            Log[MTheta3^2/\[Mu]^2])/(32*Pi^2) + 
-          (lambdaHatTheta3^2*Log[MTheta3^2/\[Mu]^2])/(8*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/(8*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar*muH^2*Log[MTheta3^2/\[Mu]^2])/
-           (8*MTheta3^2*Pi^2), alphaOmuH2 -> (lambdaHatTheta3*MTheta3^2)/
-           (4*Pi^2) + (invepsilonbar*lambdaHatTheta3*MTheta3^2)/(4*Pi^2) - 
-          (lambdaHatTheta3*MTheta3^2*Log[MTheta3^2/\[Mu]^2])/(4*Pi^2), 
-        alphaR2B -> (3*g1^2)/(160*MTheta3^2*Pi^2), alphaR2G -> 0, 
-        alphaR2W -> g2^2/(96*MTheta3^2*Pi^2), alphaRBDH -> 0, alphaRDH -> 0, 
-        alphaRHDp -> (5*lambdaHatPrimeTheta3^2)/(48*MTheta3^2*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*MTheta3^2*Pi^2), 
-        alphaRHDpp -> 0, alphaRWDH -> 0, alphaEBd[fl99_, fl97_] -> 0, 
-        alphaEBdbar[fl99_, fl97_] -> 0, alphaEBdp[fl99_, fl97_] -> 0, 
-        alphaEBdpbar[fl99_, fl97_] -> 0, alphaEBdtp[fl99_, fl97_] -> 0, 
-        alphaEBdtpbar[fl99_, fl97_] -> 0, alphaEBe[fl99_, fl97_] -> 0, 
-        alphaEBebar[fl99_, fl97_] -> 0, alphaEBep[fl99_, fl97_] -> 0, 
-        alphaEBepbar[fl99_, fl97_] -> 0, alphaEBetp[fl99_, fl97_] -> 0, 
-        alphaEBetpbar[fl99_, fl97_] -> 0, alphaEBl[fl99_, fl97_] -> 0, 
-        alphaEBlbar[fl99_, fl97_] -> 0, alphaEBlp[fl99_, fl97_] -> 0, 
-        alphaEBlpbar[fl99_, fl97_] -> 0, alphaEBltp[fl99_, fl97_] -> 0, 
-        alphaEBltpbar[fl99_, fl97_] -> 0, alphaEBq[fl99_, fl97_] -> 0, 
-        alphaEBqbar[fl99_, fl97_] -> 0, alphaEBqp[fl99_, fl97_] -> 0, 
-        alphaEBqpbar[fl99_, fl97_] -> 0, alphaEBqtp[fl99_, fl97_] -> 0, 
-        alphaEBqtpbar[fl99_, fl97_] -> 0, alphaEBu[fl99_, fl97_] -> 0, 
-        alphaEBubar[fl99_, fl97_] -> 0, alphaEBup[fl99_, fl97_] -> 0, 
-        alphaEBupbar[fl99_, fl97_] -> 0, alphaEButp[fl99_, fl97_] -> 0, 
-        alphaEButpbar[fl99_, fl97_] -> 0, alphaEcdd[fl95_, fl97_, fl93_, 
-          fl99_] -> 0, alphaEcddbar[fl95_, fl97_, fl93_, fl99_] -> 0, 
+          (5*g2^2*Log[MTheta1^2/\[Mu]^2])/(48*Pi^2), alphaO3G -> 0, 
+        alphaO3Gt -> 0, alphaO3W -> g2^3/(576*MTheta1^2*Pi^2), 
+        alphaO3Wt -> 0, alphaOH -> (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatPrimeTheta1)/
+           (6*MTheta1^2*Pi^2) + (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatTheta1)/
+           (3*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1^2*lambdaHatTheta1)/
+           (32*MTheta1^2*Pi^2) + lambdaHatTheta1^3/(24*MTheta1^2*Pi^2) + 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2)/
+           (6*MTheta1^2*Pi^2) + (Sqrt[5/3]*invepsilonbar*
+            lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2)/(12*MTheta1^2*
+            Pi^2) + (7*lam*lambdaTheta1*lambdaTheta1bar)/(16*MTheta1^2*
+            Pi^2) + (7*invepsilonbar*lam*lambdaTheta1*lambdaTheta1bar)/
+           (16*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar)/(48*MTheta1^2*Pi^2) + 
+          (5*invepsilonbar*lambdaHatPrimeTheta1*lambdaTheta1*lambdaTheta1bar)/
+           (96*MTheta1^2*Pi^2) + (3*lambdaHatTheta1*lambdaTheta1*
+            lambdaTheta1bar)/(16*MTheta1^2*Pi^2) + 
+          (invepsilonbar*lambdaHatTheta1*lambdaTheta1*lambdaTheta1bar)/
+           (16*MTheta1^2*Pi^2) + (Sqrt[5/3]*lambdaHatPrimePrimeTheta1*
+            lambdaTheta1bar^2)/(6*MTheta1^2*Pi^2) + 
+          (Sqrt[5/3]*invepsilonbar*lambdaHatPrimePrimeTheta1*
+            lambdaTheta1bar^2)/(12*MTheta1^2*Pi^2) - 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2*
+            Log[MTheta1^2/\[Mu]^2])/(12*MTheta1^2*Pi^2) - 
+          (7*lam*lambdaTheta1*lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/
+           (16*MTheta1^2*Pi^2) - (5*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/(96*MTheta1^2*Pi^2) - 
+          (lambdaHatTheta1*lambdaTheta1*lambdaTheta1bar*
+            Log[MTheta1^2/\[Mu]^2])/(16*MTheta1^2*Pi^2) - 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1*lambdaTheta1bar^2*
+            Log[MTheta1^2/\[Mu]^2])/(12*MTheta1^2*Pi^2), 
+        alphaOHB -> -1/192*(g1^2*lambdaHatTheta1)/(MTheta1^2*Pi^2), 
+        alphaOHBox -> (-5*lambdaHatPrimeTheta1^2)/(192*MTheta1^2*Pi^2) - 
+          lambdaHatTheta1^2/(48*MTheta1^2*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar)/(24*MTheta1^2*Pi^2), alphaOHBt -> 0, 
+        alphaOHD -> (lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar)/
+           (9*MTheta1^2*Pi^2) - (5*lambdaHatPrimeTheta1^2)/
+           (48*MTheta1^2*Pi^2) - (lambdaTheta1*lambdaTheta1bar)/
+           (8*MTheta1^2*Pi^2), alphaOHG -> 0, alphaOHGt -> 0, 
+        alphaOHW -> (-5*g2^2*lambdaHatTheta1)/(192*MTheta1^2*Pi^2), 
+        alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta1)/(192*MTheta1^2*Pi^2), 
+        alphaOHWBt -> 0, alphaOHWt -> 0, alphaOlambda -> 
+         -1/3*(invepsilonbar*lambdaHatPrimePrimeTheta1*
+             lambdaHatPrimePrimeTheta1bar)/Pi^2 - 
+          (5*invepsilonbar*lambdaHatPrimeTheta1^2)/(32*Pi^2) - 
+          (invepsilonbar*lambdaHatTheta1^2)/(8*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar)/(8*Pi^2) - 
+          (invepsilonbar*lambdaTheta1*lambdaTheta1bar)/(8*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar*muH^2)/(8*MTheta1^2*Pi^2) - 
+          (invepsilonbar*lambdaTheta1*lambdaTheta1bar*muH^2)/
+           (8*MTheta1^2*Pi^2) + (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*Log[MTheta1^2/\[Mu]^2])/(3*Pi^2) + 
+          (5*lambdaHatPrimeTheta1^2*Log[MTheta1^2/\[Mu]^2])/(32*Pi^2) + 
+          (lambdaHatTheta1^2*Log[MTheta1^2/\[Mu]^2])/(8*Pi^2) + 
+          (lambdaTheta1*lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/(8*Pi^2) + 
+          (lambdaTheta1*lambdaTheta1bar*muH^2*Log[MTheta1^2/\[Mu]^2])/
+           (8*MTheta1^2*Pi^2), alphaOmuH2 -> (lambdaHatTheta1*MTheta1^2)/
+           (4*Pi^2) + (invepsilonbar*lambdaHatTheta1*MTheta1^2)/(4*Pi^2) - 
+          (lambdaHatTheta1*MTheta1^2*Log[MTheta1^2/\[Mu]^2])/(4*Pi^2), 
+        alphaR2B -> g1^2/(480*MTheta1^2*Pi^2), alphaR2G -> 0, 
+        alphaR2W -> g2^2/(96*MTheta1^2*Pi^2), alphaRBDH -> 0, alphaRDH -> 0, 
+        alphaRHDp -> (lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar)/
+           (9*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1^2)/
+           (48*MTheta1^2*Pi^2) + (5*lambdaTheta1*lambdaTheta1bar)/
+           (24*MTheta1^2*Pi^2), alphaRHDpp -> 0, alphaRWDH -> 0, 
+        alphaEBd[fl99_, fl97_] -> 0, alphaEBdbar[fl99_, fl97_] -> 0, 
+        alphaEBdp[fl99_, fl97_] -> 0, alphaEBdpbar[fl99_, fl97_] -> 0, 
+        alphaEBdtp[fl99_, fl97_] -> 0, alphaEBdtpbar[fl99_, fl97_] -> 0, 
+        alphaEBe[fl99_, fl97_] -> 0, alphaEBebar[fl99_, fl97_] -> 0, 
+        alphaEBep[fl99_, fl97_] -> 0, alphaEBepbar[fl99_, fl97_] -> 0, 
+        alphaEBetp[fl99_, fl97_] -> 0, alphaEBetpbar[fl99_, fl97_] -> 0, 
+        alphaEBl[fl99_, fl97_] -> 0, alphaEBlbar[fl99_, fl97_] -> 0, 
+        alphaEBlp[fl99_, fl97_] -> 0, alphaEBlpbar[fl99_, fl97_] -> 0, 
+        alphaEBltp[fl99_, fl97_] -> 0, alphaEBltpbar[fl99_, fl97_] -> 0, 
+        alphaEBq[fl99_, fl97_] -> 0, alphaEBqbar[fl99_, fl97_] -> 0, 
+        alphaEBqp[fl99_, fl97_] -> 0, alphaEBqpbar[fl99_, fl97_] -> 0, 
+        alphaEBqtp[fl99_, fl97_] -> 0, alphaEBqtpbar[fl99_, fl97_] -> 0, 
+        alphaEBu[fl99_, fl97_] -> 0, alphaEBubar[fl99_, fl97_] -> 0, 
+        alphaEBup[fl99_, fl97_] -> 0, alphaEBupbar[fl99_, fl97_] -> 0, 
+        alphaEButp[fl99_, fl97_] -> 0, alphaEButpbar[fl99_, fl97_] -> 0, 
+        alphaEcdd[fl95_, fl97_, fl93_, fl99_] -> 0, 
+        alphaEcddbar[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEcddtwo[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEcddtwobar[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEced[fl95_, fl97_, fl99_, fl93_] -> 0, 
@@ -868,7 +890,7 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
         alphaWeinberg[fl97_, fl99_] -> 0, alphaWeinbergbar[fl97_, fl99_] -> 
          0}, {}}}, {{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1, 
         alphaO3G -> 0, alphaO3Gt -> 0, alphaO3W -> 0, alphaO3Wt -> 0, 
-        alphaOH -> (lambdaTheta3*lambdaTheta3bar)/(2*MTheta3^2), 
+        alphaOH -> (lambdaTheta1*lambdaTheta1bar)/(6*MTheta1^2), 
         alphaOHB -> 0, alphaOHBox -> 0, alphaOHBt -> 0, alphaOHD -> 0, 
         alphaOHG -> 0, alphaOHGt -> 0, alphaOHW -> 0, alphaOHWB -> 0, 
         alphaOHWBt -> 0, alphaOHWt -> 0, alphaOlambda -> lam, 
@@ -1285,66 +1307,88 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
         alphaRWqtp[fl99_, fl97_] -> 0, alphaRWqtpbar[fl99_, fl97_] -> 0, 
         alphaWeinberg[fl97_, fl99_] -> 0, alphaWeinbergbar[fl97_, fl99_] -> 
          0}, {}}, {{alphaKB -> 0, alphaKG -> 0, alphaKH -> 0, alphaKW -> 0, 
-        alphaO3G -> 0, alphaO3Gt -> 0, alphaO3W -> g2^3/(576*MTheta3^2*Pi^2), 
-        alphaO3Wt -> 0, alphaOH -> (5*lambdaHatPrimeTheta3^2*lambdaHatTheta3)/
-           (32*MTheta3^2*Pi^2) + lambdaHatTheta3^3/(24*MTheta3^2*Pi^2) + 
-          (21*lam*lambdaTheta3*lambdaTheta3bar)/(16*MTheta3^2*Pi^2) + 
-          (21*invepsilonbar*lam*lambdaTheta3*lambdaTheta3bar)/
-           (16*MTheta3^2*Pi^2) + (15*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar)/(16*MTheta3^2*Pi^2) + 
-          (15*invepsilonbar*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar)/(32*MTheta3^2*Pi^2) + 
-          (9*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar)/
-           (16*MTheta3^2*Pi^2) + (3*invepsilonbar*lambdaHatTheta3*
-            lambdaTheta3*lambdaTheta3bar)/(16*MTheta3^2*Pi^2) - 
-          (21*lam*lambdaTheta3*lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/
-           (16*MTheta3^2*Pi^2) - (15*lambdaHatPrimeTheta3*lambdaTheta3*
-            lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/(32*MTheta3^2*Pi^2) - 
-          (3*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar*
-            Log[MTheta3^2/\[Mu]^2])/(16*MTheta3^2*Pi^2), 
-        alphaOHB -> (-3*g1^2*lambdaHatTheta3)/(64*MTheta3^2*Pi^2), 
-        alphaOHBox -> (-5*lambdaHatPrimeTheta3^2)/(192*MTheta3^2*Pi^2) - 
-          lambdaHatTheta3^2/(48*MTheta3^2*Pi^2), alphaOHBt -> 0, 
-        alphaOHD -> (-5*lambdaHatPrimeTheta3^2)/(48*MTheta3^2*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*MTheta3^2*Pi^2), alphaOHG -> 0, 
-        alphaOHGt -> 0, alphaOHW -> (-5*g2^2*lambdaHatTheta3)/
-          (192*MTheta3^2*Pi^2), alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta3)/
-          (64*MTheta3^2*Pi^2), alphaOHWBt -> 0, alphaOHWt -> 0, 
-        alphaOlambda -> (-5*invepsilonbar*lambdaHatPrimeTheta3^2)/(32*Pi^2) - 
-          (invepsilonbar*lambdaHatTheta3^2)/(8*Pi^2) - 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*Pi^2) - 
-          (3*invepsilonbar*lambdaTheta3*lambdaTheta3bar)/(8*Pi^2) - 
-          (3*lambdaTheta3*lambdaTheta3bar*muH^2)/(8*MTheta3^2*Pi^2) - 
-          (3*invepsilonbar*lambdaTheta3*lambdaTheta3bar*muH^2)/
-           (8*MTheta3^2*Pi^2) + (5*lambdaHatPrimeTheta3^2*
-            Log[MTheta3^2/\[Mu]^2])/(32*Pi^2) + 
-          (lambdaHatTheta3^2*Log[MTheta3^2/\[Mu]^2])/(8*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2])/(8*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar*muH^2*Log[MTheta3^2/\[Mu]^2])/
-           (8*MTheta3^2*Pi^2), alphaOmuH2 -> (lambdaHatTheta3*MTheta3^2)/
-           (4*Pi^2) + (invepsilonbar*lambdaHatTheta3*MTheta3^2)/(4*Pi^2) - 
-          (lambdaHatTheta3*MTheta3^2*Log[MTheta3^2/\[Mu]^2])/(4*Pi^2), 
-        alphaR2B -> (3*g1^2)/(160*MTheta3^2*Pi^2), alphaR2G -> 0, 
-        alphaR2W -> g2^2/(96*MTheta3^2*Pi^2), alphaRBDH -> 0, alphaRDH -> 0, 
-        alphaRHDp -> (5*lambdaHatPrimeTheta3^2)/(48*MTheta3^2*Pi^2) + 
-          (3*lambdaTheta3*lambdaTheta3bar)/(8*MTheta3^2*Pi^2), 
-        alphaRHDpp -> 0, alphaRWDH -> 0, alphaEBd[fl99_, fl97_] -> 0, 
-        alphaEBdbar[fl99_, fl97_] -> 0, alphaEBdp[fl99_, fl97_] -> 0, 
-        alphaEBdpbar[fl99_, fl97_] -> 0, alphaEBdtp[fl99_, fl97_] -> 0, 
-        alphaEBdtpbar[fl99_, fl97_] -> 0, alphaEBe[fl99_, fl97_] -> 0, 
-        alphaEBebar[fl99_, fl97_] -> 0, alphaEBep[fl99_, fl97_] -> 0, 
-        alphaEBepbar[fl99_, fl97_] -> 0, alphaEBetp[fl99_, fl97_] -> 0, 
-        alphaEBetpbar[fl99_, fl97_] -> 0, alphaEBl[fl99_, fl97_] -> 0, 
-        alphaEBlbar[fl99_, fl97_] -> 0, alphaEBlp[fl99_, fl97_] -> 0, 
-        alphaEBlpbar[fl99_, fl97_] -> 0, alphaEBltp[fl99_, fl97_] -> 0, 
-        alphaEBltpbar[fl99_, fl97_] -> 0, alphaEBq[fl99_, fl97_] -> 0, 
-        alphaEBqbar[fl99_, fl97_] -> 0, alphaEBqp[fl99_, fl97_] -> 0, 
-        alphaEBqpbar[fl99_, fl97_] -> 0, alphaEBqtp[fl99_, fl97_] -> 0, 
-        alphaEBqtpbar[fl99_, fl97_] -> 0, alphaEBu[fl99_, fl97_] -> 0, 
-        alphaEBubar[fl99_, fl97_] -> 0, alphaEBup[fl99_, fl97_] -> 0, 
-        alphaEBupbar[fl99_, fl97_] -> 0, alphaEButp[fl99_, fl97_] -> 0, 
-        alphaEButpbar[fl99_, fl97_] -> 0, alphaEcdd[fl95_, fl97_, fl93_, 
-          fl99_] -> 0, alphaEcddbar[fl95_, fl97_, fl93_, fl99_] -> 0, 
+        alphaO3G -> 0, alphaO3Gt -> 0, alphaO3W -> g2^3/(576*MTheta1^2*Pi^2), 
+        alphaO3Wt -> 0, alphaOH -> (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatPrimeTheta1)/
+           (6*MTheta1^2*Pi^2) + (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatTheta1)/
+           (3*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1^2*lambdaHatTheta1)/
+           (32*MTheta1^2*Pi^2) + lambdaHatTheta1^3/(24*MTheta1^2*Pi^2) + 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2)/
+           (6*MTheta1^2*Pi^2) + (Sqrt[5/3]*invepsilonbar*
+            lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2)/(12*MTheta1^2*
+            Pi^2) + (7*lam*lambdaTheta1*lambdaTheta1bar)/(16*MTheta1^2*
+            Pi^2) + (7*invepsilonbar*lam*lambdaTheta1*lambdaTheta1bar)/
+           (16*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar)/(48*MTheta1^2*Pi^2) + 
+          (5*invepsilonbar*lambdaHatPrimeTheta1*lambdaTheta1*lambdaTheta1bar)/
+           (96*MTheta1^2*Pi^2) + (3*lambdaHatTheta1*lambdaTheta1*
+            lambdaTheta1bar)/(16*MTheta1^2*Pi^2) + 
+          (invepsilonbar*lambdaHatTheta1*lambdaTheta1*lambdaTheta1bar)/
+           (16*MTheta1^2*Pi^2) + (Sqrt[5/3]*lambdaHatPrimePrimeTheta1*
+            lambdaTheta1bar^2)/(6*MTheta1^2*Pi^2) + 
+          (Sqrt[5/3]*invepsilonbar*lambdaHatPrimePrimeTheta1*
+            lambdaTheta1bar^2)/(12*MTheta1^2*Pi^2) - 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2*
+            Log[MTheta1^2/\[Mu]^2])/(12*MTheta1^2*Pi^2) - 
+          (7*lam*lambdaTheta1*lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/
+           (16*MTheta1^2*Pi^2) - (5*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/(96*MTheta1^2*Pi^2) - 
+          (lambdaHatTheta1*lambdaTheta1*lambdaTheta1bar*
+            Log[MTheta1^2/\[Mu]^2])/(16*MTheta1^2*Pi^2) - 
+          (Sqrt[5/3]*lambdaHatPrimePrimeTheta1*lambdaTheta1bar^2*
+            Log[MTheta1^2/\[Mu]^2])/(12*MTheta1^2*Pi^2), 
+        alphaOHB -> -1/192*(g1^2*lambdaHatTheta1)/(MTheta1^2*Pi^2), 
+        alphaOHBox -> (-5*lambdaHatPrimeTheta1^2)/(192*MTheta1^2*Pi^2) - 
+          lambdaHatTheta1^2/(48*MTheta1^2*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar)/(24*MTheta1^2*Pi^2), alphaOHBt -> 0, 
+        alphaOHD -> (lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar)/
+           (9*MTheta1^2*Pi^2) - (5*lambdaHatPrimeTheta1^2)/
+           (48*MTheta1^2*Pi^2) - (lambdaTheta1*lambdaTheta1bar)/
+           (8*MTheta1^2*Pi^2), alphaOHG -> 0, alphaOHGt -> 0, 
+        alphaOHW -> (-5*g2^2*lambdaHatTheta1)/(192*MTheta1^2*Pi^2), 
+        alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta1)/(192*MTheta1^2*Pi^2), 
+        alphaOHWBt -> 0, alphaOHWt -> 0, alphaOlambda -> 
+         -1/3*(invepsilonbar*lambdaHatPrimePrimeTheta1*
+             lambdaHatPrimePrimeTheta1bar)/Pi^2 - 
+          (5*invepsilonbar*lambdaHatPrimeTheta1^2)/(32*Pi^2) - 
+          (invepsilonbar*lambdaHatTheta1^2)/(8*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar)/(8*Pi^2) - 
+          (invepsilonbar*lambdaTheta1*lambdaTheta1bar)/(8*Pi^2) - 
+          (lambdaTheta1*lambdaTheta1bar*muH^2)/(8*MTheta1^2*Pi^2) - 
+          (invepsilonbar*lambdaTheta1*lambdaTheta1bar*muH^2)/
+           (8*MTheta1^2*Pi^2) + (lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*Log[MTheta1^2/\[Mu]^2])/(3*Pi^2) + 
+          (5*lambdaHatPrimeTheta1^2*Log[MTheta1^2/\[Mu]^2])/(32*Pi^2) + 
+          (lambdaHatTheta1^2*Log[MTheta1^2/\[Mu]^2])/(8*Pi^2) + 
+          (lambdaTheta1*lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2])/(8*Pi^2) + 
+          (lambdaTheta1*lambdaTheta1bar*muH^2*Log[MTheta1^2/\[Mu]^2])/
+           (8*MTheta1^2*Pi^2), alphaOmuH2 -> (lambdaHatTheta1*MTheta1^2)/
+           (4*Pi^2) + (invepsilonbar*lambdaHatTheta1*MTheta1^2)/(4*Pi^2) - 
+          (lambdaHatTheta1*MTheta1^2*Log[MTheta1^2/\[Mu]^2])/(4*Pi^2), 
+        alphaR2B -> g1^2/(480*MTheta1^2*Pi^2), alphaR2G -> 0, 
+        alphaR2W -> g2^2/(96*MTheta1^2*Pi^2), alphaRBDH -> 0, alphaRDH -> 0, 
+        alphaRHDp -> (lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar)/
+           (9*MTheta1^2*Pi^2) + (5*lambdaHatPrimeTheta1^2)/
+           (48*MTheta1^2*Pi^2) + (5*lambdaTheta1*lambdaTheta1bar)/
+           (24*MTheta1^2*Pi^2), alphaRHDpp -> 0, alphaRWDH -> 0, 
+        alphaEBd[fl99_, fl97_] -> 0, alphaEBdbar[fl99_, fl97_] -> 0, 
+        alphaEBdp[fl99_, fl97_] -> 0, alphaEBdpbar[fl99_, fl97_] -> 0, 
+        alphaEBdtp[fl99_, fl97_] -> 0, alphaEBdtpbar[fl99_, fl97_] -> 0, 
+        alphaEBe[fl99_, fl97_] -> 0, alphaEBebar[fl99_, fl97_] -> 0, 
+        alphaEBep[fl99_, fl97_] -> 0, alphaEBepbar[fl99_, fl97_] -> 0, 
+        alphaEBetp[fl99_, fl97_] -> 0, alphaEBetpbar[fl99_, fl97_] -> 0, 
+        alphaEBl[fl99_, fl97_] -> 0, alphaEBlbar[fl99_, fl97_] -> 0, 
+        alphaEBlp[fl99_, fl97_] -> 0, alphaEBlpbar[fl99_, fl97_] -> 0, 
+        alphaEBltp[fl99_, fl97_] -> 0, alphaEBltpbar[fl99_, fl97_] -> 0, 
+        alphaEBq[fl99_, fl97_] -> 0, alphaEBqbar[fl99_, fl97_] -> 0, 
+        alphaEBqp[fl99_, fl97_] -> 0, alphaEBqpbar[fl99_, fl97_] -> 0, 
+        alphaEBqtp[fl99_, fl97_] -> 0, alphaEBqtpbar[fl99_, fl97_] -> 0, 
+        alphaEBu[fl99_, fl97_] -> 0, alphaEBubar[fl99_, fl97_] -> 0, 
+        alphaEBup[fl99_, fl97_] -> 0, alphaEBupbar[fl99_, fl97_] -> 0, 
+        alphaEButp[fl99_, fl97_] -> 0, alphaEButpbar[fl99_, fl97_] -> 0, 
+        alphaEcdd[fl95_, fl97_, fl93_, fl99_] -> 0, 
+        alphaEcddbar[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEcddtwo[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEcddtwobar[fl95_, fl97_, fl93_, fl99_] -> 0, 
         alphaEced[fl95_, fl97_, fl99_, fl93_] -> 0, 
@@ -1733,45 +1777,64 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
         alphaWeinberg[fl97_, fl99_] -> 0, alphaWeinbergbar[fl97_, fl99_] -> 
          0}, {}}}, {alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1, 
       alphaO3G -> 0, alphaO3Gt -> 0, alphaO3W -> (g2^3*onelooporder)/
-        (576*MTheta3^2*Pi^2), alphaO3Wt -> 0, 
-      alphaOH -> (lambdaTheta3*lambdaTheta3bar)/(2*MTheta3^2) + 
-        (onelooporder*(-(g2^4*lam) + 20*lam*lambdaHatPrimeTheta3^2 + 
-           15*lambdaHatPrimeTheta3^2*lambdaHatTheta3 + 4*lambdaHatTheta3^3 + 
-           198*lam*lambdaTheta3*lambdaTheta3bar + 126*invepsilonbar*lam*
-            lambdaTheta3*lambdaTheta3bar + 90*lambdaHatPrimeTheta3*
-            lambdaTheta3*lambdaTheta3bar + 45*invepsilonbar*
-            lambdaHatPrimeTheta3*lambdaTheta3*lambdaTheta3bar + 
-           54*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar + 
-           18*invepsilonbar*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar - 
-           126*lam*lambdaTheta3*lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2] - 
-           45*lambdaHatPrimeTheta3*lambdaTheta3*lambdaTheta3bar*
-            Log[MTheta3^2/\[Mu]^2] - 18*lambdaHatTheta3*lambdaTheta3*
-            lambdaTheta3bar*Log[MTheta3^2/\[Mu]^2]))/(96*MTheta3^2*Pi^2), 
-      alphaOHB -> (-3*g1^2*lambdaHatTheta3*onelooporder)/(64*MTheta3^2*Pi^2), 
-      alphaOHBox -> ((-9*g1^4 - 15*g2^4 + 100*lambdaHatPrimeTheta3^2 - 
-          80*lambdaHatTheta3^2 + 720*lambdaTheta3*lambdaTheta3bar)*
-         onelooporder)/(3840*MTheta3^2*Pi^2), alphaOHBt -> 0, 
-      alphaOHD -> ((-9*g1^4 - 100*lambdaHatPrimeTheta3^2 + 
-          360*lambdaTheta3*lambdaTheta3bar)*onelooporder)/
-        (960*MTheta3^2*Pi^2), alphaOHG -> 0, alphaOHGt -> 0, 
-      alphaOHW -> (-5*g2^2*lambdaHatTheta3*onelooporder)/
-        (192*MTheta3^2*Pi^2), alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta3*
-         onelooporder)/(64*MTheta3^2*Pi^2), alphaOHWBt -> 0, alphaOHWt -> 0, 
-      alphaOlambda -> lam + (onelooporder*(-30*invepsilonbar*
-            lambdaHatPrimeTheta3^2*MTheta3^2 - 24*invepsilonbar*
-            lambdaHatTheta3^2*MTheta3^2 - 72*lambdaTheta3*lambdaTheta3bar*
-            MTheta3^2 - 72*invepsilonbar*lambdaTheta3*lambdaTheta3bar*
-            MTheta3^2 + g2^4*muH^2 - 20*lambdaHatPrimeTheta3^2*muH^2 - 
-           144*lambdaTheta3*lambdaTheta3bar*muH^2 - 72*invepsilonbar*
-            lambdaTheta3*lambdaTheta3bar*muH^2 + 30*lambdaHatPrimeTheta3^2*
-            MTheta3^2*Log[MTheta3^2/\[Mu]^2] + 24*lambdaHatTheta3^2*MTheta3^2*
-            Log[MTheta3^2/\[Mu]^2] + 72*lambdaTheta3*lambdaTheta3bar*
-            MTheta3^2*Log[MTheta3^2/\[Mu]^2] + 72*lambdaTheta3*
-            lambdaTheta3bar*muH^2*Log[MTheta3^2/\[Mu]^2]))/
-         (192*MTheta3^2*Pi^2), alphaOmuH2 -> 
-       muH^2 + (onelooporder*(lambdaHatTheta3*MTheta3^2 + 
-           invepsilonbar*lambdaHatTheta3*MTheta3^2 - lambdaHatTheta3*
-            MTheta3^2*Log[MTheta3^2/\[Mu]^2]))/(4*Pi^2), 
+        (576*MTheta1^2*Pi^2), alphaO3Wt -> 0, 
+      alphaOH -> (lambdaTheta1*lambdaTheta1bar)/(6*MTheta1^2) + 
+        (onelooporder*(-3*g2^4*lam + 64*lam*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar + 48*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatPrimeTheta1 + 
+           60*lam*lambdaHatPrimeTheta1^2 + 96*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar*lambdaHatTheta1 + 
+           45*lambdaHatPrimeTheta1^2*lambdaHatTheta1 + 12*lambdaHatTheta1^3 + 
+           16*Sqrt[15]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2 + 
+           8*Sqrt[15]*invepsilonbar*lambdaHatPrimePrimeTheta1bar*
+            lambdaTheta1^2 + 246*lam*lambdaTheta1*lambdaTheta1bar + 
+           126*invepsilonbar*lam*lambdaTheta1*lambdaTheta1bar + 
+           30*lambdaHatPrimeTheta1*lambdaTheta1*lambdaTheta1bar + 
+           15*invepsilonbar*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar + 54*lambdaHatTheta1*lambdaTheta1*
+            lambdaTheta1bar + 18*invepsilonbar*lambdaHatTheta1*lambdaTheta1*
+            lambdaTheta1bar + 16*Sqrt[15]*lambdaHatPrimePrimeTheta1*
+            lambdaTheta1bar^2 + 8*Sqrt[15]*invepsilonbar*
+            lambdaHatPrimePrimeTheta1*lambdaTheta1bar^2 - 
+           8*Sqrt[15]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2*
+            Log[MTheta1^2/\[Mu]^2] - 126*lam*lambdaTheta1*lambdaTheta1bar*
+            Log[MTheta1^2/\[Mu]^2] - 15*lambdaHatPrimeTheta1*lambdaTheta1*
+            lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2] - 18*lambdaHatTheta1*
+            lambdaTheta1*lambdaTheta1bar*Log[MTheta1^2/\[Mu]^2] - 
+           8*Sqrt[15]*lambdaHatPrimePrimeTheta1*lambdaTheta1bar^2*
+            Log[MTheta1^2/\[Mu]^2]))/(288*MTheta1^2*Pi^2), 
+      alphaOHB -> -1/192*(g1^2*lambdaHatTheta1*onelooporder)/
+         (MTheta1^2*Pi^2), alphaOHBox -> 
+       ((-3*g1^4 - 45*g2^4 + 640*lambdaHatPrimePrimeTheta1*
+           lambdaHatPrimePrimeTheta1bar + 300*lambdaHatPrimeTheta1^2 - 
+          240*lambdaHatTheta1^2 + 720*lambdaTheta1*lambdaTheta1bar)*
+         onelooporder)/(11520*MTheta1^2*Pi^2), alphaOHBt -> 0, 
+      alphaOHD -> ((-3*g1^4 + 320*lambdaHatPrimePrimeTheta1*
+           lambdaHatPrimePrimeTheta1bar - 300*lambdaHatPrimeTheta1^2 - 
+          360*lambdaTheta1*lambdaTheta1bar)*onelooporder)/
+        (2880*MTheta1^2*Pi^2), alphaOHG -> 0, alphaOHGt -> 0, 
+      alphaOHW -> (-5*g2^2*lambdaHatTheta1*onelooporder)/
+        (192*MTheta1^2*Pi^2), alphaOHWB -> (-5*g1*g2*lambdaHatPrimeTheta1*
+         onelooporder)/(192*MTheta1^2*Pi^2), alphaOHWBt -> 0, alphaOHWt -> 0, 
+      alphaOlambda -> lam + (onelooporder*(-192*invepsilonbar*
+            lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar*
+            MTheta1^2 - 90*invepsilonbar*lambdaHatPrimeTheta1^2*MTheta1^2 - 
+           72*invepsilonbar*lambdaHatTheta1^2*MTheta1^2 - 
+           72*lambdaTheta1*lambdaTheta1bar*MTheta1^2 - 72*invepsilonbar*
+            lambdaTheta1*lambdaTheta1bar*MTheta1^2 + 3*g2^4*muH^2 - 
+           64*lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar*muH^2 - 
+           60*lambdaHatPrimeTheta1^2*muH^2 - 192*lambdaTheta1*lambdaTheta1bar*
+            muH^2 - 72*invepsilonbar*lambdaTheta1*lambdaTheta1bar*muH^2 + 
+           192*lambdaHatPrimePrimeTheta1*lambdaHatPrimePrimeTheta1bar*
+            MTheta1^2*Log[MTheta1^2/\[Mu]^2] + 90*lambdaHatPrimeTheta1^2*
+            MTheta1^2*Log[MTheta1^2/\[Mu]^2] + 72*lambdaHatTheta1^2*MTheta1^2*
+            Log[MTheta1^2/\[Mu]^2] + 72*lambdaTheta1*lambdaTheta1bar*
+            MTheta1^2*Log[MTheta1^2/\[Mu]^2] + 72*lambdaTheta1*
+            lambdaTheta1bar*muH^2*Log[MTheta1^2/\[Mu]^2]))/
+         (576*MTheta1^2*Pi^2), alphaOmuH2 -> 
+       muH^2 + (onelooporder*(lambdaHatTheta1*MTheta1^2 + 
+           invepsilonbar*lambdaHatTheta1*MTheta1^2 - lambdaHatTheta1*
+            MTheta1^2*Log[MTheta1^2/\[Mu]^2]))/(4*Pi^2), 
       alphaKd[mif1_, mif2_] -> KroneckerDelta[mif1, mif2], 
       alphaKdbar[mif1_, mif2_] -> KroneckerDelta[mif1, mif2], 
       alphaKe[mif1_, mif2_] -> KroneckerDelta[mif1, mif2], 
@@ -1783,88 +1846,95 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
       alphaKu[mif1_, mif2_] -> KroneckerDelta[mif1, mif2], 
       alphaKubar[mif1_, mif2_] -> KroneckerDelta[mif1, mif2], 
       alphaOddbar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/8640*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOeebar[mif1_, mif2_, mif3_, mif4_] -> 
-       (-3*g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(320*MTheta3^2*Pi^2), alphaOHdbar[mif1_, mif2_] -> 
-       (g1^4*onelooporder*KroneckerDelta[mif1, mif2])/(320*MTheta3^2*Pi^2), 
-      alphaOHebar[mif1_, mif2_] -> (3*g1^4*onelooporder*KroneckerDelta[mif1, 
-          mif2])/(320*MTheta3^2*Pi^2), alphaOHl1bar[mif1_, mif2_] -> 
-       (3*g1^4*onelooporder*KroneckerDelta[mif1, mif2])/(640*MTheta3^2*Pi^2), 
-      alphaOHl3bar[mif1_, mif2_] -> 
+       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
+      alphaOHdbar[mif1_, mif2_] -> (g1^4*onelooporder*KroneckerDelta[mif1, 
+          mif2])/(2880*MTheta1^2*Pi^2), alphaOHebar[mif1_, mif2_] -> 
+       (g1^4*onelooporder*KroneckerDelta[mif1, mif2])/(960*MTheta1^2*Pi^2), 
+      alphaOHl1bar[mif1_, mif2_] -> (g1^4*onelooporder*KroneckerDelta[mif1, 
+          mif2])/(1920*MTheta1^2*Pi^2), alphaOHl3bar[mif1_, mif2_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHq1bar[mif1_, mif2_] -> 
-       -1/640*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHq3bar[mif1_, mif2_] -> 
+         (MTheta1^2*Pi^2), alphaOHq1bar[mif1_, mif2_] -> 
+       -1/5760*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOHq3bar[mif1_, mif2_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHubar[mif1_, mif2_] -> 
-       -1/160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOllbar[mif1_, mif2_, mif3_, mif4_] -> 
+         (MTheta1^2*Pi^2), alphaOHubar[mif1_, mif2_] -> 
+       -1/1440*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOllbar[mif1_, mif2_, mif3_, mif4_] -> 
        (onelooporder*(-10*g2^4*KroneckerDelta[mif1, mif4]*
-           KroneckerDelta[mif2, mif3] - 9*g1^4*KroneckerDelta[mif1, mif2]*
+           KroneckerDelta[mif2, mif3] - g1^4*KroneckerDelta[mif1, mif2]*
            KroneckerDelta[mif3, mif4] + 5*g2^4*KroneckerDelta[mif1, mif2]*
-           KroneckerDelta[mif3, mif4]))/(3840*MTheta3^2*Pi^2), 
+           KroneckerDelta[mif3, mif4]))/(3840*MTheta1^2*Pi^2), 
       alphaOuubar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/240*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/2160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaWeinberg[mif1_, mif2_] -> 0, alphaWeinbergbar[mif1_, mif2_] -> 0, 
       alphaOdB[mif1_, mif2_] -> 0, alphaOdBbar[mif1_, mif2_] -> 0, 
       alphaOdd[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/8640*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOdG[mif1_, mif2_] -> 0, alphaOdGbar[mif1_, mif2_] -> 0, 
-      alphaOdH[mif1_, mif2_] -> -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 
-           72*lambdaTheta3*lambdaTheta3bar)*onelooporder*yd[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOdHbar[mif1_, mif2_] -> 
-       -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 72*lambdaTheta3*
-            lambdaTheta3bar)*onelooporder*ydbar[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOdW[mif1_, mif2_] -> 0, 
+      alphaOdH[mif1_, mif2_] -> -1/1152*
+        ((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*yd[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOdHbar[mif1_, mif2_] -> 
+       -1/1152*((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*ydbar[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOdW[mif1_, mif2_] -> 0, 
       alphaOdWbar[mif1_, mif2_] -> 0, alphaOeB[mif1_, mif2_] -> 0, 
       alphaOeBbar[mif1_, mif2_] -> 0, alphaOed[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/1440*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOedbar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/1440*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOee[mif1_, mif2_, mif3_, mif4_] -> 
-       (-3*g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(320*MTheta3^2*Pi^2), alphaOeH[mif1_, mif2_] -> 
-       -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 72*lambdaTheta3*
-            lambdaTheta3bar)*onelooporder*yl[mif1, mif2])/(MTheta3^2*Pi^2), 
-      alphaOeHbar[mif1_, mif2_] -> 
-       -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 72*lambdaTheta3*
-            lambdaTheta3bar)*onelooporder*ylbar[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOeu[mif1_, mif2_, mif3_, mif4_] -> 
+       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
+      alphaOeH[mif1_, mif2_] -> -1/1152*
+        ((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*yl[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOeHbar[mif1_, mif2_] -> 
+       -1/1152*((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*ylbar[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOeu[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(80*MTheta3^2*Pi^2), alphaOeubar[mif1_, mif2_, mif3_, 
+          mif4])/(720*MTheta1^2*Pi^2), alphaOeubar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(80*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(720*MTheta1^2*Pi^2), 
       alphaOeW[mif1_, mif2_] -> 0, alphaOeWbar[mif1_, mif2_] -> 0, 
       alphaOHd[mif1_, mif2_] -> (g1^4*onelooporder*KroneckerDelta[mif1, 
-          mif2])/(320*MTheta3^2*Pi^2), alphaOHe[mif1_, mif2_] -> 
-       (3*g1^4*onelooporder*KroneckerDelta[mif1, mif2])/(320*MTheta3^2*Pi^2), 
-      alphaOHl1[mif1_, mif2_] -> (3*g1^4*onelooporder*KroneckerDelta[mif1, 
-          mif2])/(640*MTheta3^2*Pi^2), alphaOHl3[mif1_, mif2_] -> 
+          mif2])/(2880*MTheta1^2*Pi^2), alphaOHe[mif1_, mif2_] -> 
+       (g1^4*onelooporder*KroneckerDelta[mif1, mif2])/(960*MTheta1^2*Pi^2), 
+      alphaOHl1[mif1_, mif2_] -> (g1^4*onelooporder*KroneckerDelta[mif1, 
+          mif2])/(1920*MTheta1^2*Pi^2), alphaOHl3[mif1_, mif2_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHq1[mif1_, mif2_] -> 
-       -1/640*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHq3[mif1_, mif2_] -> 
+         (MTheta1^2*Pi^2), alphaOHq1[mif1_, mif2_] -> 
+       -1/5760*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOHq3[mif1_, mif2_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHu[mif1_, mif2_] -> 
-       -1/160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOHud[mif1_, mif2_] -> 0, 
+         (MTheta1^2*Pi^2), alphaOHu[mif1_, mif2_] -> 
+       -1/1440*(g1^4*onelooporder*KroneckerDelta[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOHud[mif1_, mif2_] -> 0, 
       alphaOHudbar[mif1_, mif2_] -> 0, alphaOld[mif1_, mif2_, mif3_, 
-        mif4_] -> -1/320*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+        mif4_] -> -1/2880*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOldbar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/320*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/2880*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOle[mif1_, mif2_, mif3_, mif4_] -> 
-       (-3*g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(320*MTheta3^2*Pi^2), alphaOlebar[mif1_, mif2_, mif3_, 
-        mif4_] -> (-3*g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(320*MTheta3^2*Pi^2), 
+       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
+      alphaOlebar[mif1_, mif2_, mif3_, mif4_] -> 
+       -1/960*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOledq[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOledqbar[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOlequ1[mif1_, mif2_, mif3_, mif4_] -> 0, 
@@ -1873,55 +1943,55 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
       alphaOlequ3bar[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOll[mif1_, mif2_, mif3_, mif4_] -> 
        (onelooporder*(-10*g2^4*KroneckerDelta[mif1, mif4]*
-           KroneckerDelta[mif2, mif3] - 9*g1^4*KroneckerDelta[mif1, mif2]*
+           KroneckerDelta[mif2, mif3] - g1^4*KroneckerDelta[mif1, mif2]*
            KroneckerDelta[mif3, mif4] + 5*g2^4*KroneckerDelta[mif1, mif2]*
-           KroneckerDelta[mif3, mif4]))/(3840*MTheta3^2*Pi^2), 
+           KroneckerDelta[mif3, mif4]))/(3840*MTheta1^2*Pi^2), 
       alphaOlq1[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(640*MTheta3^2*Pi^2), alphaOlq1bar[mif1_, mif2_, mif3_, 
+          mif4])/(5760*MTheta1^2*Pi^2), alphaOlq1bar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(640*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(5760*MTheta1^2*Pi^2), 
       alphaOlq3[mif1_, mif2_, mif3_, mif4_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOlq3bar[mif1_, mif2_, mif3_, mif4_] -> 
        -1/384*(g2^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOlu[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(160*MTheta3^2*Pi^2), alphaOlubar[mif1_, mif2_, mif3_, 
+          mif4])/(1440*MTheta1^2*Pi^2), alphaOlubar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(160*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(1440*MTheta1^2*Pi^2), 
       alphaOqd1[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(960*MTheta3^2*Pi^2), alphaOqd1bar[mif1_, mif2_, mif3_, 
+          mif4])/(8640*MTheta1^2*Pi^2), alphaOqd1bar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(960*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(8640*MTheta1^2*Pi^2), 
       alphaOqd8[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOqd8bar[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOqe[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(320*MTheta3^2*Pi^2), alphaOqebar[mif1_, mif2_, mif3_, 
+          mif4])/(2880*MTheta1^2*Pi^2), alphaOqebar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(320*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(2880*MTheta1^2*Pi^2), 
       alphaOqq1[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/3840*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/34560*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqq1bar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/3840*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/34560*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqq3[mif1_, mif2_, mif3_, mif4_] -> 
        -1/768*(g2^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqq3bar[mif1_, mif2_, mif3_, mif4_] -> 
        -1/768*(g2^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqu1[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/480*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/4320*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqu1bar[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/480*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+       -1/4320*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOqu8[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOqu8bar[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOquqd1[mif1_, mif2_, mif3_, mif4_] -> 0, 
@@ -1931,20 +2001,23 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
       alphaOuB[mif1_, mif2_] -> 0, alphaOuBbar[mif1_, mif2_] -> 0, 
       alphaOud1[mif1_, mif2_, mif3_, mif4_] -> 
        (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*KroneckerDelta[mif3, 
-          mif4])/(240*MTheta3^2*Pi^2), alphaOud1bar[mif1_, mif2_, mif3_, 
+          mif4])/(2160*MTheta1^2*Pi^2), alphaOud1bar[mif1_, mif2_, mif3_, 
         mif4_] -> (g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-         KroneckerDelta[mif3, mif4])/(240*MTheta3^2*Pi^2), 
+         KroneckerDelta[mif3, mif4])/(2160*MTheta1^2*Pi^2), 
       alphaOud8[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOud8bar[mif1_, mif2_, mif3_, mif4_] -> 0, 
       alphaOuG[mif1_, mif2_] -> 0, alphaOuGbar[mif1_, mif2_] -> 0, 
-      alphaOuH[mif1_, mif2_] -> -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 
-           72*lambdaTheta3*lambdaTheta3bar)*onelooporder*yu[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOuHbar[mif1_, mif2_] -> 
-       -1/384*((g2^4 - 20*lambdaHatPrimeTheta3^2 - 72*lambdaTheta3*
-            lambdaTheta3bar)*onelooporder*yubar[mif1, mif2])/
-         (MTheta3^2*Pi^2), alphaOuu[mif1_, mif2_, mif3_, mif4_] -> 
-       -1/240*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
-          KroneckerDelta[mif3, mif4])/(MTheta3^2*Pi^2), 
+      alphaOuH[mif1_, mif2_] -> -1/1152*
+        ((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*yu[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOuHbar[mif1_, mif2_] -> 
+       -1/1152*((3*g2^4 - 64*lambdaHatPrimePrimeTheta1*
+            lambdaHatPrimePrimeTheta1bar - 60*lambdaHatPrimeTheta1^2 - 
+           120*lambdaTheta1*lambdaTheta1bar)*onelooporder*yubar[mif1, mif2])/
+         (MTheta1^2*Pi^2), alphaOuu[mif1_, mif2_, mif3_, mif4_] -> 
+       -1/2160*(g1^4*onelooporder*KroneckerDelta[mif1, mif2]*
+          KroneckerDelta[mif3, mif4])/(MTheta1^2*Pi^2), 
       alphaOuW[mif1_, mif2_] -> 0, alphaOuWbar[mif1_, mif2_] -> 0, 
       alphaOlambdad[mif1_, mif2_] -> yd[mif1, mif2], 
       alphaOlambdadbar[mif1_, mif2_] -> ydbar[mif1, mif2], 
@@ -1952,7 +2025,7 @@ MatchingResult = {{{{alphaKB -> 1, alphaKG -> 1, alphaKH -> 1, alphaKW -> 1,
       alphaOlambdaebar[mif1_, mif2_] -> ylbar[mif1, mif2], 
       alphaOlambdau[mif1_, mif2_] -> yu[mif1, mif2], 
       alphaOlambdaubar[mif1_, mif2_] -> yubar[mif1, mif2]}, 
-     {g1 -> g1*(1 + (onelooporder*((3*g1^2*invepsilonbar)/(16*Pi^2) - 
-            (3*g1^2*Log[MTheta3^2/\[Mu]^2])/(16*Pi^2)))/2), 
+     {g1 -> g1*(1 + (onelooporder*((g1^2*invepsilonbar)/(48*Pi^2) - 
+            (g1^2*Log[MTheta1^2/\[Mu]^2])/(48*Pi^2)))/2), 
       g2 -> g2*(1 + (onelooporder*((5*g2^2*invepsilonbar)/(48*Pi^2) - 
-            (5*g2^2*Log[MTheta3^2/\[Mu]^2])/(48*Pi^2)))/2), g3 -> g3}}
+            (5*g2^2*Log[MTheta1^2/\[Mu]^2])/(48*Pi^2)))/2), g3 -> g3}}

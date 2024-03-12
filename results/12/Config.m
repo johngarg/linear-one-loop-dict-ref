@@ -1,2 +1,2 @@
-DeclareCouplings[{yd, {3,3}},{ydbar, {3,3}},{yu, {3,3}},{yubar, {3,3}},{yl, {3,3}},{ylbar, {3,3}},{yluPi7, {3,3}},{yluPi7bar, {3,3}},{yeqPi7, {3,3}},{yeqPi7bar, {3,3}}];
-DeclareExoticParams[MPi7,yluPi7,yluPi7bar,yeqPi7,yeqPi7bar,lambdaHatPi7,lambdaHatPi7bar,lambdaHatPrimePi7,lambdaHatPrimePi7bar];
+DeclareCouplings[{yd, {3,3}},{ydbar, {3,3}},{yu, {3,3}},{yubar, {3,3}},{yl, {3,3}},{ylbar, {3,3}},{yPi1, {3,3}},{yPi1bar, {3,3}}];
+DeclareExoticParams[MPi1,yPi1,yPi1bar,lambdaHatPi1,lambdaHatPi1bar,lambdaHatPrimePi1,lambdaHatPrimePi1bar];

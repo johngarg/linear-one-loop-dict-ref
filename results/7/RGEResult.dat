@@ -1,22 +1,24 @@
-RGEResult = {\[Beta][g1] -> (3*g1^3)/(16*Pi^2), 
-     \[Beta][g2] -> (5*g2^3)/(48*Pi^2), \[Beta][g3] -> 0, 
-     \[Beta][alphaKB] -> 0, \[Beta][alphaKG] -> 0, \[Beta][alphaKH] -> 0, 
-     \[Beta][alphaKW] -> 0, \[Beta][alphaO3G] -> 0, \[Beta][alphaO3Gt] -> 0, 
-     \[Beta][alphaO3W] -> 0, \[Beta][alphaO3Wt] -> 0, 
-     \[Beta][alphaOH] -> (-21*lam*lambdaTheta3*lambdaTheta3bar)/
-        (8*MTheta3^2*Pi^2) + (126*lam*lambdaTheta3*lambdaTheta3bar + 
-         45*lambdaHatPrimeTheta3*lambdaTheta3*lambdaTheta3bar + 
-         18*lambdaHatTheta3*lambdaTheta3*lambdaTheta3bar)/
-        (24*MTheta3^2*Pi^2), \[Beta][alphaOHB] -> 0, 
+RGEResult = {\[Beta][g1] -> g1^3/(48*Pi^2), \[Beta][g2] -> 
+      (5*g2^3)/(48*Pi^2), \[Beta][g3] -> 0, \[Beta][alphaKB] -> 0, 
+     \[Beta][alphaKG] -> 0, \[Beta][alphaKH] -> 0, \[Beta][alphaKW] -> 0, 
+     \[Beta][alphaO3G] -> 0, \[Beta][alphaO3Gt] -> 0, \[Beta][alphaO3W] -> 0, 
+     \[Beta][alphaO3Wt] -> 0, \[Beta][alphaOH] -> 
+      (-7*lam*lambdaTheta1*lambdaTheta1bar)/(8*MTheta1^2*Pi^2) + 
+       (8*Sqrt[15]*lambdaHatPrimePrimeTheta1bar*lambdaTheta1^2 + 
+         126*lam*lambdaTheta1*lambdaTheta1bar + 15*lambdaHatPrimeTheta1*
+          lambdaTheta1*lambdaTheta1bar + 18*lambdaHatTheta1*lambdaTheta1*
+          lambdaTheta1bar + 8*Sqrt[15]*lambdaHatPrimePrimeTheta1*
+          lambdaTheta1bar^2)/(72*MTheta1^2*Pi^2), \[Beta][alphaOHB] -> 0, 
      \[Beta][alphaOHBox] -> 0, \[Beta][alphaOHBt] -> 0, 
      \[Beta][alphaOHD] -> 0, \[Beta][alphaOHG] -> 0, \[Beta][alphaOHGt] -> 0, 
      \[Beta][alphaOHW] -> 0, \[Beta][alphaOHWB] -> 0, 
      \[Beta][alphaOHWBt] -> 0, \[Beta][alphaOHWt] -> 0, 
-     \[Beta][alphaOlambda] -> (-30*lambdaHatPrimeTheta3^2*MTheta3^2 - 
-        24*lambdaHatTheta3^2*MTheta3^2 - 72*lambdaTheta3*lambdaTheta3bar*
-         MTheta3^2 - 72*lambdaTheta3*lambdaTheta3bar*muH^2)/
-       (96*MTheta3^2*Pi^2), \[Beta][alphaOmuH2] -> 0, 
-     \[Beta][alphaKd[mif1_, mif2_]] -> 0, 
+     \[Beta][alphaOlambda] -> (-192*lambdaHatPrimePrimeTheta1*
+         lambdaHatPrimePrimeTheta1bar*MTheta1^2 - 90*lambdaHatPrimeTheta1^2*
+         MTheta1^2 - 72*lambdaHatTheta1^2*MTheta1^2 - 
+        72*lambdaTheta1*lambdaTheta1bar*MTheta1^2 - 72*lambdaTheta1*
+         lambdaTheta1bar*muH^2)/(288*MTheta1^2*Pi^2), 
+     \[Beta][alphaOmuH2] -> 0, \[Beta][alphaKd[mif1_, mif2_]] -> 0, 
      \[Beta][alphaKdbar[mif1_, mif2_]] -> 0, 
      \[Beta][alphaKe[mif1_, mif2_]] -> 0, 
      \[Beta][alphaKebar[mif1_, mif2_]] -> 0, 
