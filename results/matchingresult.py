@@ -2,10 +2,8 @@
 
 from dataclasses import dataclass
 from typing import List
-import rundec
 import numpy as np
 
-CRD = rundec.CRunDec()
 GEV = 1e-3
 MZ = 91.1876 * GEV
 
@@ -66,3 +64,28 @@ class GenericMatchingResult:
         if i == j:
             return 1
         return 0
+
+    def just_running(self, coeff: str, args: list[int] = []):
+        """Return just the non-analytic part of the coefficient `coeff`. The
+        method is called with the arguments passed to the list `args`.
+
+        """
+        # Save the initial value of the scale
+        initial_scale = self.scale
+
+        # Set scale to the mass to kill running contribution
+        self.scale = getattr(self, f"M{self.name}")
+
+        # Extract method into a function
+        func = getattr(self, coeff)
+
+        # Isolate the matching part
+        matching = func(*args)
+
+        # Reset scale to initial value
+        self.scale = initial_scale
+
+        # Subtract matching from total result to isolate the running
+        running = func(*args) - matching
+
+        return running
