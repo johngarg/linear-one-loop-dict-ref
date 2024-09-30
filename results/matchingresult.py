@@ -89,3 +89,30 @@ class GenericMatchingResult:
         running = func(*args) - matching
 
         return running
+
+    def ratio_tree_loop(self, coeff: str, args: list[int] = []):
+        """Returns the ratio between the tree-level part and loop-level part
+        `coeff` for flavour indices listed in `args`.
+
+        """
+        # Set this here to set it back at the end
+        original_onelooporder = self.onelooporder
+
+        # Extract the method into a function
+        func = getattr(self, coeff)
+
+        # Get total result
+        self.onelooporder = 1
+        total_result = func(*args)
+
+        # Get tree-level result
+        self.onelooporder = 0
+        tree_level_result = func(*args)
+
+        # Isolate just the loop-level result
+        loop_level_result = total_result - tree_level_result
+
+        # Set onelooporder back to what it was
+        self.onelooporder = original_onelooporder
+
+        return tree_level_result / loop_level_result
