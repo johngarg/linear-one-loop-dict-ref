@@ -15,10 +15,11 @@ x-axis of the heat map.
 The ~results/~ directory contains only one layer of nesting, where each
 subdirectory corresponds to the full model represented by each number.
 
-Although this reference is not intended to be used apart from the figure in our
-paper, we have also included the operator name and flavour indices as a
-Mathematica replacement rule in each text file, and the name of the mass in the
-denominator of each matching expression can also be used to identify which
+**We remind the reader that this reference is not intended to be used apart from
+the figure in our paper.** For programmatic use of our one-loop dictionary, see
+[[https://github.com/johngarg/lsme][lsme]]. Despite this, we have also included the operator name and flavour indices
+as a Mathematica replacement rule in each text file, and the name of the mass in
+the denominator of each matching expression can also be used to identify which
 multiplet has been integrated out. Finally, we also give the numbers to which
 the models and operators correspond as a Python dictionary in case manual or
 programmatic navigation is necessary:
