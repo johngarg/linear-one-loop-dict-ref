@@ -1,15 +1,123 @@
 * Reference one-loop dictionary for linear SM extensions
 
 This repository contains the matching data linked to in Fig. 1 in our paper
-arXiv:2402.XXXXX.
+arXiv:2412.XXXXX.
 
-The outer directory structure represents the rows of the figure, i.e. the
-B-conserving SMEFT operators as they appear in the order they appear along the
-y-axis. The inner structure represents the columns of the figure, i.e. linear SM
-extensions as they appear along the x-axis of the heat map.
+The ~dict/~ directory contains a nested directory structure representing each
+cell of the figure, /i.e./ a combination of model and operator. The text file
+contains a Mathematica replacement rule corresponding to the operator
+coefficient in that particular model. The inner directory structure represents
+the rows of the figure, /i.e./ the B-conserving SMEFT operators as they appear
+in the order they appear along the y-axis. The outer structure represents the
+columns of the figure, /i.e./ linear SM extensions as they appear along the
+x-axis of the heat map.
+
+The ~results/~ directory contains only one layer of nesting, where each
+subdirectory corresponds to the full model represented by each number.
 
 Although this reference is not intended to be used apart from the figure in our
 paper, we have also included the operator name and flavour indices as a
 Mathematica replacement rule in each text file, and the name of the mass in the
 denominator of each matching expression can also be used to identify which
-multiplet has been integrated out.
+multiplet has been integrated out. Finally, we also give the numbers to which
+the models and operators correspond as a Python dictionary in case manual or
+programmatic navigation is necessary:
+
+#+begin_src python
+{ 1:  $S$,
+  2:  $S_1$,
+  3:  $S_2$,
+  4:  $\varphi$,
+  5:  $\Xi$,
+  6:  $\Xi_1$,
+  7:  $\Theta_1$,
+  8:  $\Theta_3$,
+  9:  $\omega_1$,
+  10: $\omega_2$,
+  11: $\omega_4$,
+  12: $\Pi_1$,
+  13: $\Pi_7$,
+  14: $\zeta$,
+  15: $\Omega_1$,
+  16: $\Omega_2$,
+  17: $\Omega_4$,
+  18: $\Upsilon$,
+  19: $\Phi$,
+  20: $N$,
+  21: $E$,
+  22: $\Delta_1$,
+  23: $\Delta_3$,
+  24: $\Sigma$,
+  25: $\Sigma_1$,
+  26: $U$,
+  27: $D$,
+  28: $Q_1$,
+  29: $Q_5$,
+  30: $Q_7$,
+  31: $T_1$,
+  32: $T_2$,
+}
+#+end_src
+
+#+begin_src python
+{ 1: $\mathcal{O}_{G}$,
+  2: $\mathcal{O}_{\tilde{G}}$,
+  3: $\mathcal{O}_{W}$,
+  4: $\mathcal{O}_{\tilde{W}}$,
+  5: $\mathcal{O}_{H}$,
+  6: $\mathcal{O}_{HB}$,
+  7: $\mathcal{O}_{H D^2}$,
+  8: $\mathcal{O}_{H\tilde{B}}$,
+  9: $\mathcal{O}_{HD}$,
+  10: $\mathcal{O}_{HG}$,
+  11: $\mathcal{O}_{H\tilde{G}}$,
+  12: $\mathcal{O}_{HW}$,
+  13: $\mathcal{O}_{HWB}$,
+  14: $\mathcal{O}_{HW\tilde{B}}$,
+  15: $\mathcal{O}_{H\tilde{W}}$,
+  16: $\mathcal{O}_{Hd}$,
+  17: $\mathcal{O}_{He}$,
+  18: $\mathcal{O}_{Hl}^{(1)}$,
+  19: $\mathcal{O}_{Hl}^{(3)}$,
+  20: $\mathcal{O}_{Hq}^{(1)}$,
+  21: $\mathcal{O}_{Hq}^{(3)}$,
+  22: $\mathcal{O}_{Hu}$,
+  23: $\mathcal{O}_{Hud}$,
+  24: $\mathcal{O}_{dB}$,
+  25: $\mathcal{O}_{dG}$,
+  26: $\mathcal{O}_{dH}$,
+  27: $\mathcal{O}_{dW}$,
+  28: $\mathcal{O}_{dd}$,
+  29: $\mathcal{O}_{eB}$,
+  30: $\mathcal{O}_{eH}$,
+  31: $\mathcal{O}_{eW}$,
+  32: $\mathcal{O}_{ed}$,
+  33: $\mathcal{O}_{ee}$,
+  34: $\mathcal{O}_{eu}$,
+  35: $\mathcal{O}_{ld}$,
+  36: $\mathcal{O}_{le}$,
+  37: $\mathcal{O}_{ledq}$,
+  38: $\mathcal{O}_{lequ}^{(1)}$,
+  39: $\mathcal{O}_{lequ}^{(3)}$,
+  40: $\mathcal{O}_{ll}$,
+  41: $\mathcal{O}_{lq}^{(1)}$,
+  42: $\mathcal{O}_{lq}^{(3)}$,
+  43: $\mathcal{O}_{lu}$,
+  44: $\mathcal{O}_{qd}^{(1)}$,
+  45: $\mathcal{O}_{qd}^{(8)}$,
+  46: $\mathcal{O}_{qe}$,
+  47: $\mathcal{O}_{qq}^{(1)}$,
+  48: $\mathcal{O}_{qq}^{(3)}$,
+  49: $\mathcal{O}_{qu}^{(1)}$,
+  50: $\mathcal{O}_{qu}^{(8)}$,
+  51: $\mathcal{O}_{quqd}^{(1)}$,
+  52: $\mathcal{O}_{quqd}^{(8)}$,
+  53: $\mathcal{O}_{uB}$,
+  54: $\mathcal{O}_{uG}$,
+  55: $\mathcal{O}_{uH}$,
+  56: $\mathcal{O}_{uW}$,
+  57: $\mathcal{O}_{ud}^{(1)}$,
+  58: $\mathcal{O}_{ud}^{(8)}$,
+  59: $\mathcal{O}_{uu}$,
+}
+#+end_src
