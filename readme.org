@@ -1,7 +1,7 @@
 * Reference one-loop dictionary for linear SM extensions
 
 This repository contains the matching data linked to in Fig. 1 in our paper
-arXiv:2412.XXXXX.
+[[https://arxiv.org/abs/2412.01759][arXiv:2412.01759]].
 
 The ~dict/~ directory contains a nested directory structure representing each
 cell of the figure, /i.e./ a combination of model and operator. The text file
